@@ -1,34 +1,178 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: A sample template
+Description: Projeto repositorio de Dados e NoSQL
 
 Resources:
 
-  ArtistTable:
+  TabelaCarrinho:
     Type: AWS::DynamoDB::Table
     Properties:
-      TableName: Artist
-      AttributeDefinitions:
-        - AttributeName: "ArtistId"
+      TableName: Carrinho
+      AttributeDefinitions: 
+        - AttributeName: "id_carrinho"
           AttributeType: "S"
-        - AttributeName: "Concert"
+        - AttributeName: "id_cliente"
           AttributeType: "S"
-        - AttributeName: "TicketSales"
-          AttributeType: "S"
-      KeySchema:
-        - AttributeName: "ArtistId"
+      KeySchema: 
+        - AttributeName: "id_carrinho"
           KeyType: "HASH"
-        - AttributeName: "Concert"
-          KeyType: "RANGE"
-      GlobalSecondaryIndexes:
-        - IndexName: "GSI"
-          KeySchema:
-            - AttributeName: "TicketSales"
-              KeyType: "HASH"
-          Projection:
-            ProjectionType: "KEYS_ONLY"
-          ProvisionedThroughput:
-            ReadCapacityUnits: 5
-            WriteCapacityUnits: 5
       ProvisionedThroughput:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
+      GlobalSecondaryIndexes:
+        - IndexName: "GSI"
+          KeySchema:
+            - AttributeName: "id_cliente"
+              KeyType: "HASH"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
+
+  TabelaListaDesejo:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ListaDesejo
+      AttributeDefinitions: 
+        - AttributeName: "id_lista_desejo"
+          AttributeType: "S"
+        - AttributeName: "id_cliente"
+          AttributeType: "S"
+        - AttributeName: "data_geracao"
+          AttributeType: "S"
+      KeySchema: 
+        - AttributeName: "id_lista_desejo"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+      GlobalSecondaryIndexes:
+        - IndexName: "GSI"
+          KeySchema:
+            - AttributeName: "id_cliente"
+              KeyType: "HASH"
+            - AttributeName: "data_geracao"
+              KeyType: "RANGE"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
+
+  TabelaRecomendacao:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Recomendacao
+      AttributeDefinitions: 
+        - AttributeName: "id_recomendacao"
+          AttributeType: "S"
+        - AttributeName: "id_cliente"
+          AttributeType: "S"
+        - AttributeName: "data_geracao"
+          AttributeType: "S"
+      KeySchema: 
+        - AttributeName: "id_recomendacao"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+      GlobalSecondaryIndexes:
+        - IndexName: "GSI"
+          KeySchema:
+            - AttributeName: "id_cliente"
+              KeyType: "HASH"
+            - AttributeName: "data_geracao"
+              KeyType: "RANGE"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
+
+  TabelaPedido:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Pedido
+      AttributeDefinitions: 
+        - AttributeName: "id_pedido"
+          AttributeType: "S"
+        - AttributeName: "id_cliente"
+          AttributeType: "S"
+        - AttributeName: "data_pedido"
+          AttributeType: "S"
+      KeySchema: 
+        - AttributeName: "id_pedido"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+      GlobalSecondaryIndexes:
+        - IndexName: "GSI"
+          KeySchema:
+            - AttributeName: "id_cliente"
+              KeyType: "HASH"
+            - AttributeName: "data_pedido"
+              KeyType: "RANGE"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
+
+  TabelaCliente:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Cliente
+      AttributeDefinitions: 
+        - AttributeName: "id_cliente"
+          AttributeType: "S"
+      KeySchema: 
+        - AttributeName: "id_cliente"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
+
+  TabelaProduto:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Produto
+      AttributeDefinitions:
+        - AttributeName: "id_produto"
+          AttributeType: "S"
+        - AttributeName: "id_parceiro"
+          AttributeType: "S"
+      KeySchema: 
+        - AttributeName: "id_produto"
+          KeyType: "HASH"
+      ProvisionedThroughput:
+        ReadCapacityUnits: 5
+        WriteCapacityUnits: 5
+      GlobalSecondaryIndexes:
+        - IndexName: "GSI"
+          KeySchema:
+            - AttributeName: "id_parceiro"
+              KeyType: "HASH"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+      Tags:
+        - Key: "Projeto"
+          Value: "Repositorio de Dados e NoSQL"
