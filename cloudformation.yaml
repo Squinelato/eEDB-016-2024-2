@@ -6,6 +6,7 @@ Resources:
   ArtistTable:
     Type: AWS::DynamoDB::Table
     Properties:
+      TableName: Artist
       AttributeDefinitions:
         - AttributeName: "ArtistId"
           AttributeType: "S"
