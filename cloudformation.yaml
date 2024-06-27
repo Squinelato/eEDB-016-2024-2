@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: Projeto repositorio de Dados e NoSQL
+Description: Projeto de Conclusao da Disciplina eEDB-016/2024-2
 
 Resources:
 

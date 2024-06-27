@@ -86,7 +86,7 @@
     },
     {
         "id_pedido": "pedido002",
-        "id_cliente": "cliente002",
+        "id_cliente": "cliente001",
         "id_pedido_parceiro": "parceiroPedido800",
         "status_pedido": "Cancelado",
         "data_pedido": "2024-05-15T11:30:00Z",
