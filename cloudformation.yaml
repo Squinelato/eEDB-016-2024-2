@@ -19,7 +19,7 @@ Resources:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
       GlobalSecondaryIndexes:
-        - IndexName: "GSI"
+        - IndexName: "gsi_cliente"
           KeySchema:
             - AttributeName: "id_cliente"
               KeyType: "HASH"
@@ -50,7 +50,7 @@ Resources:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
       GlobalSecondaryIndexes:
-        - IndexName: "GSI"
+        - IndexName: "gsi_cliente"
           KeySchema:
             - AttributeName: "id_cliente"
               KeyType: "HASH"
@@ -83,7 +83,7 @@ Resources:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
       GlobalSecondaryIndexes:
-        - IndexName: "GSI"
+        - IndexName: "gsi_cliente"
           KeySchema:
             - AttributeName: "id_cliente"
               KeyType: "HASH"
@@ -105,6 +105,8 @@ Resources:
       AttributeDefinitions: 
         - AttributeName: "id_pedido"
           AttributeType: "S"
+        - AttributeName: "id_carrinho"
+          AttributeType: "S"
         - AttributeName: "id_cliente"
           AttributeType: "S"
         - AttributeName: "data_pedido"
@@ -116,7 +118,16 @@ Resources:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
       GlobalSecondaryIndexes:
-        - IndexName: "GSI"
+        - IndexName: "gsi_carrinho"
+          KeySchema:
+            - AttributeName: "id_carrinho"
+              KeyType: "HASH"
+          Projection:
+            ProjectionType: "ALL"
+          ProvisionedThroughput:
+            ReadCapacityUnits: 5
+            WriteCapacityUnits: 5
+        - IndexName: "gsi_cliente"
           KeySchema:
             - AttributeName: "id_cliente"
               KeyType: "HASH"
@@ -164,7 +175,7 @@ Resources:
         ReadCapacityUnits: 5
         WriteCapacityUnits: 5
       GlobalSecondaryIndexes:
-        - IndexName: "GSI"
+        - IndexName: "gsi_parceiro"
           KeySchema:
             - AttributeName: "id_parceiro"
               KeyType: "HASH"
