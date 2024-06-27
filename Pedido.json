@@ -1,0 +1,427 @@
+[
+    {
+        "id_pedido": "pedido001",
+        "id_cliente": "cliente001",
+        "id_pedido_parceiro": "parceiroPedido900",
+        "status_pedido": "Concluído",
+        "data_pedido": "2024-06-10T10:20:00Z",
+        "data_cancelamento": null,
+        "valor_total": 450,
+        "itens_pedido": [
+            {
+                "id_item": "item101",
+                "id_produto": "produtoX",
+                "id_parceiro": "parceiroA",
+                "id_sku": "sku101",
+                "descricao": "Smartphone XYZ",
+                "categoria": "Eletrônicos",
+                "sub_categoria": "Smartphones",
+                "disponibilidade": "Em estoque",
+                "preco": 300,
+                "preco_promocional": 280,
+                "desconto": 7,
+                "imagem": "smartphone_xyz.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroA",
+                    "cnpj": "11.222.333/0001-44",
+                    "nome": "Tech Store",
+                    "logo": "tech_store_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao101",
+                        "id_cliente": "cliente100",
+                        "data_avaliacao": "2024-06-12T12:00:00Z",
+                        "nota": 5,
+                        "titulo": "Produto Excelente",
+                        "mensagem": "Superou as expectativas.",
+                        "imagem": "avaliacao_1.jpg"
+                    }
+                ]
+            },
+            {
+                "id_item": "item102",
+                "id_produto": "produtoY",
+                "id_parceiro": "parceiroB",
+                "id_sku": "sku102",
+                "descricao": "Laptop ABC",
+                "categoria": "Informática",
+                "sub_categoria": "Notebooks",
+                "disponibilidade": "Em estoque",
+                "preco": 150,
+                "preco_promocional": 130,
+                "desconto": 13,
+                "imagem": "laptop_abc.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroB",
+                    "cnpj": "55.666.777/0001-88",
+                    "nome": "CompuTech",
+                    "logo": "computech_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao102",
+                        "id_cliente": "cliente101",
+                        "data_avaliacao": "2024-06-15T14:30:00Z",
+                        "nota": 4,
+                        "titulo": "Bom Produto",
+                        "mensagem": "Custo-benefício interessante.",
+                        "imagem": "avaliacao_2.jpg"
+                    }
+                ]
+            }
+        ],
+        "endereco_entrega": {
+            "id_endereco": "endereco101",
+            "logradouro": "Avenida Paulista",
+            "numero": "1234",
+            "bairro": "Bela Vista",
+            "complemento": "Ap 101",
+            "cep": "01310-000",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "tipo": "Residencial"
+        }
+    },
+    {
+        "id_pedido": "pedido002",
+        "id_cliente": "cliente002",
+        "id_pedido_parceiro": "parceiroPedido800",
+        "status_pedido": "Cancelado",
+        "data_pedido": "2024-05-15T11:30:00Z",
+        "data_cancelamento": "2024-05-20T09:00:00Z",
+        "valor_total": 650,
+        "itens_pedido": [
+            {
+                "id_item": "item201",
+                "id_produto": "produtoZ",
+                "id_parceiro": "parceiroC",
+                "id_sku": "sku201",
+                "descricao": "Tablet 123",
+                "categoria": "Eletrônicos",
+                "sub_categoria": "Tablets",
+                "disponibilidade": "Fora de estoque",
+                "preco": 450,
+                "preco_promocional": 420,
+                "desconto": 6,
+                "imagem": "tablet_123.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroC",
+                    "cnpj": "22.444.555/0001-66",
+                    "nome": "Gadget World",
+                    "logo": "gadget_world_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao201",
+                        "id_cliente": "cliente200",
+                        "data_avaliacao": "2024-06-01T13:00:00Z",
+                        "nota": 4,
+                        "titulo": "Bom Tablet",
+                        "mensagem": "Atendeu as expectativas.",
+                        "imagem": "avaliacao_3.jpg"
+                    }
+                ]
+            },
+            {
+                "id_item": "item202",
+                "id_produto": "produtoW",
+                "id_parceiro": "parceiroD",
+                "id_sku": "sku202",
+                "descricao": "Monitor HD",
+                "categoria": "Informática",
+                "sub_categoria": "Monitores",
+                "disponibilidade": "Em estoque",
+                "preco": 200,
+                "preco_promocional": 180,
+                "desconto": 10,
+                "imagem": "monitor_hd.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroD",
+                    "cnpj": "33.555.666/0001-77",
+                    "nome": "Screen Solutions",
+                    "logo": "screen_solutions_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao202",
+                        "id_cliente": "cliente202",
+                        "data_avaliacao": "2024-06-05T10:00:00Z",
+                        "nota": 5,
+                        "titulo": "Excelente Monitor",
+                        "mensagem": "Imagem de alta qualidade.",
+                        "imagem": "avaliacao_4.jpg"
+                    }
+                ]
+            }
+        ],
+        "endereco_entrega": {
+            "id_endereco": "endereco201",
+            "logradouro": "Rua das Acácias",
+            "numero": "456",
+            "bairro": "Jardins",
+            "complemento": "Casa 7",
+            "cep": "01410-000",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "tipo": "Comercial"
+        }
+    },
+    {
+        "id_pedido": "pedido003",
+        "id_cliente": "cliente003",
+        "id_pedido_parceiro": "parceiroPedido700",
+        "status_pedido": "Pendente",
+        "data_pedido": "2024-07-01T09:45:00Z",
+        "data_cancelamento": null,
+        "valor_total": 550,
+        "itens_pedido": [
+            {
+                "id_item": "item301",
+                "id_produto": "produtoA",
+                "id_parceiro": "parceiroE",
+                "id_sku": "sku301",
+                "descricao": "Headphone XYZ",
+                "categoria": "Eletrônicos",
+                "sub_categoria": "Fones de Ouvido",
+                "disponibilidade": "Em estoque",
+                "preco": 150,
+                "preco_promocional": 130,
+                "desconto": 13,
+                "imagem": "headphone_xyz.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroE",
+                    "cnpj": "44.666.888/0001-99",
+                    "nome": "Sound Tech",
+                    "logo": "sound_tech_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao301",
+                        "id_cliente": "cliente300",
+                        "data_avaliacao": "2024-07-03T11:00:00Z",
+                        "nota": 4,
+                        "titulo": "Bom Produto",
+                        "mensagem": "Qualidade de som ótima.",
+                        "imagem": "avaliacao_5.jpg"
+                    }
+                ]
+            },
+            {
+                "id_item": "item302",
+                "id_produto": "produtoB",
+                "id_parceiro": "parceiroF",
+                "id_sku": "sku302",
+                "descricao": "Mouse Gamer",
+                "categoria": "Informática",
+                "sub_categoria": "Acessórios",
+                "disponibilidade": "Em estoque",
+                "preco": 50,
+                "preco_promocional": 45,
+                "desconto": 10,
+                "imagem": "mouse_gamer.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroF",
+                    "cnpj": "55.777.888/0001-99",
+                    "nome": "Gamer World",
+                    "logo": "gamer_world_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao302",
+                        "id_cliente": "cliente301",
+                        "data_avaliacao": "2024-07-05T10:30:00Z",
+                        "nota": 5,
+                        "titulo": "Produto Excelente",
+                        "mensagem": "Ótimo para jogos.",
+                        "imagem": "avaliacao_6.jpg"
+                    }
+                ]
+            }
+        ],
+        "endereco_entrega": {
+            "id_endereco": "endereco301",
+            "logradouro": "Avenida Ipiranga",
+            "numero": "567",
+            "bairro": "República",
+            "complemento": "Ap 402",
+            "cep": "01046-010",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "tipo": "Residencial"
+        }
+    },
+    {
+        "id_pedido": "pedido004",
+        "id_cliente": "cliente004",
+        "id_pedido_parceiro": "parceiroPedido600",
+        "status_pedido": "Em Andamento",
+        "data_pedido": "2024-06-25T08:30:00Z",
+        "data_cancelamento": null,
+        "valor_total": 700,
+        "itens_pedido": [
+            {
+                "id_item": "item401",
+                "id_produto": "produtoC",
+                "id_parceiro": "parceiroG",
+                "id_sku": "sku401",
+                "descricao": "Smartwatch ABC",
+                "categoria": "Eletrônicos",
+                "sub_categoria": "Smartwatches",
+                "disponibilidade": "Em estoque",
+                "preco": 250,
+                "preco_promocional": 230,
+                "desconto": 8,
+                "imagem": "smartwatch_abc.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroG",
+                    "cnpj": "66.888.999/0001-00",
+                    "nome": "Wearables Store",
+                    "logo": "wearables_store_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao401",
+                        "id_cliente": "cliente400",
+                        "data_avaliacao": "2024-06-30T12:00:00Z",
+                        "nota": 4,
+                        "titulo": "Produto Bom",
+                        "mensagem": "Funciona conforme esperado.",
+                        "imagem": "avaliacao_7.jpg"
+                    }
+                ]
+            },
+            {
+                "id_item": "item402",
+                "id_produto": "produtoD",
+                "id_parceiro": "parceiroH",
+                "id_sku": "sku402",
+                "descricao": "Teclado Mecânico",
+                "categoria": "Informática",
+                "sub_categoria": "Teclados",
+                "disponibilidade": "Em estoque",
+                "preco": 100,
+                "preco_promocional": 90,
+                "desconto": 10,
+                "imagem": "teclado_mecanico.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroH",
+                    "cnpj": "77.999.000/0001-11",
+                    "nome": "Keyboards Plus",
+                    "logo": "keyboards_plus_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao402",
+                        "id_cliente": "cliente401",
+                        "data_avaliacao": "2024-07-01T15:00:00Z",
+                        "nota": 5,
+                        "titulo": "Excelente Teclado",
+                        "mensagem": "Ótimo para digitação e jogos.",
+                        "imagem": "avaliacao_8.jpg"
+                    }
+                ]
+            }
+        ],
+        "endereco_entrega": {
+            "id_endereco": "endereco401",
+            "logradouro": "Rua da Consolação",
+            "numero": "678",
+            "bairro": "Cerqueira César",
+            "complemento": "Ap 105",
+            "cep": "01302-000",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "tipo": "Residencial"
+        }
+    },
+    {
+        "id_pedido": "pedido005",
+        "id_cliente": "cliente005",
+        "id_pedido_parceiro": "parceiroPedido500",
+        "status_pedido": "Entregue",
+        "data_pedido": "2024-07-05T14:30:00Z",
+        "data_cancelamento": null,
+        "valor_total": 800,
+        "itens_pedido": [
+            {
+                "id_item": "item501",
+                "id_produto": "produtoE",
+                "id_parceiro": "parceiroI",
+                "id_sku": "sku501",
+                "descricao": "Câmera DSLR",
+                "categoria": "Eletrônicos",
+                "sub_categoria": "Câmeras",
+                "disponibilidade": "Em estoque",
+                "preco": 600,
+                "preco_promocional": 580,
+                "desconto": 3,
+                "imagem": "camera_dslr.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroI",
+                    "cnpj": "88.000.111/0001-22",
+                    "nome": "Photo Store",
+                    "logo": "photo_store_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao501",
+                        "id_cliente": "cliente500",
+                        "data_avaliacao": "2024-07-10T16:00:00Z",
+                        "nota": 5,
+                        "titulo": "Excelente Câmera",
+                        "mensagem": "Fotos de alta qualidade.",
+                        "imagem": "avaliacao_9.jpg"
+                    }
+                ]
+            },
+            {
+                "id_item": "item502",
+                "id_produto": "produtoF",
+                "id_parceiro": "parceiroJ",
+                "id_sku": "sku502",
+                "descricao": "Impressora Multifuncional",
+                "categoria": "Informática",
+                "sub_categoria": "Impressoras",
+                "disponibilidade": "Em estoque",
+                "preco": 200,
+                "preco_promocional": 180,
+                "desconto": 10,
+                "imagem": "impressora_multifuncional.jpg",
+                "parceiro": {
+                    "id_parceiro": "parceiroJ",
+                    "cnpj": "99.111.222/0001-33",
+                    "nome": "Office Supplies",
+                    "logo": "office_supplies_logo.jpg"
+                },
+                "lista_avaliacoes": [
+                    {
+                        "id_avaliacao": "avaliacao502",
+                        "id_cliente": "cliente501",
+                        "data_avaliacao": "2024-07-12T12:00:00Z",
+                        "nota": 4,
+                        "titulo": "Boa Impressora",
+                        "mensagem": "Funciona bem para uso doméstico.",
+                        "imagem": "avaliacao_10.jpg"
+                    }
+                ]
+            }
+        ],
+        "endereco_entrega": {
+            "id_endereco": "endereco501",
+            "logradouro": "Rua Augusta",
+            "numero": "789",
+            "bairro": "Consolação",
+            "complemento": "Ap 208",
+            "cep": "01304-000",
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil",
+            "tipo": "Residencial"
+        }
+    }
+]
