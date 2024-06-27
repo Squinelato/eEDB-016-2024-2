@@ -1,0 +1,187 @@
+[
+    {
+        "id_cliente": "cliente001",
+        "nome": "João Silva",
+        "email": "joao.silva@example.com",
+        "documento": "123.456.789-00",
+        "telefone": "+55 11 98765-4321",
+        "data_registro": "2023-01-15T10:30:00Z",
+        "data_acesso": "2024-06-25T14:20:00Z",
+        "enderecos_cobranca": [
+            {
+                "id_endereco": "end001",
+                "logradouro": "Rua das Flores",
+                "numero": "123",
+                "bairro": "Centro",
+                "complemento": "Apto 45",
+                "cep": "01001-000",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ],
+        "enderecos_entrega": [
+            {
+                "id_endereco": "end002",
+                "logradouro": "Avenida Paulista",
+                "numero": "1000",
+                "bairro": "Bela Vista",
+                "complemento": "Sala 101",
+                "cep": "01310-000",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "pais": "Brasil",
+                "tipo_endereco": "Comercial"
+            }
+        ]
+    },
+    {
+        "id_cliente": "cliente002",
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@example.com",
+        "documento": "987.654.321-00",
+        "telefone": "+55 21 91234-5678",
+        "data_registro": "2022-05-10T09:15:00Z",
+        "data_acesso": "2024-06-26T09:30:00Z",
+        "enderecos_cobranca": [
+            {
+                "id_endereco": "end003",
+                "logradouro": "Rua das Palmeiras",
+                "numero": "456",
+                "bairro": "Botafogo",
+                "complemento": "Casa 3",
+                "cep": "22270-000",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ],
+        "enderecos_entrega": [
+            {
+                "id_endereco": "end004",
+                "logradouro": "Avenida Atlântica",
+                "numero": "2000",
+                "bairro": "Copacabana",
+                "complemento": "Apto 1501",
+                "cep": "22070-000",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ]
+    },
+    {
+        "id_cliente": "cliente003",
+        "nome": "Carlos Souza",
+        "email": "carlos.souza@example.com",
+        "documento": "456.123.789-00",
+        "telefone": "+55 31 99876-5432",
+        "data_registro": "2021-11-20T08:45:00Z",
+        "data_acesso": "2024-06-25T17:05:00Z",
+        "enderecos_cobranca": [
+            {
+                "id_endereco": "end005",
+                "logradouro": "Rua do Ouro",
+                "numero": "789",
+                "bairro": "Savassi",
+                "complemento": "Apto 202",
+                "cep": "30140-000",
+                "cidade": "Belo Horizonte",
+                "estado": "MG",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ],
+        "enderecos_entrega": [
+            {
+                "id_endereco": "end006",
+                "logradouro": "Avenida Afonso Pena",
+                "numero": "3000",
+                "bairro": "Centro",
+                "complemento": "Sala 501",
+                "cep": "30130-000",
+                "cidade": "Belo Horizonte",
+                "estado": "MG",
+                "pais": "Brasil",
+                "tipo_endereco": "Comercial"
+            }
+        ]
+    },
+    {
+        "id_cliente": "cliente004",
+        "nome": "Ana Costa",
+        "email": "ana.costa@example.com",
+        "documento": "321.654.987-00",
+        "telefone": "+55 41 98765-4321",
+        "data_registro": "2020-07-05T12:00:00Z",
+        "data_acesso": "2024-06-24T11:10:00Z",
+        "enderecos_cobranca": [
+            {
+                "id_endereco": "end007",
+                "logradouro": "Rua XV de Novembro",
+                "numero": "100",
+                "bairro": "Centro",
+                "complemento": "Apto 23",
+                "cep": "80020-310",
+                "cidade": "Curitiba",
+                "estado": "PR",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ],
+        "enderecos_entrega": [
+            {
+                "id_endereco": "end008",
+                "logradouro": "Avenida Sete de Setembro",
+                "numero": "1500",
+                "bairro": "Batel",
+                "complemento": "Sala 808",
+                "cep": "80240-000",
+                "cidade": "Curitiba",
+                "estado": "PR",
+                "pais": "Brasil",
+                "tipo_endereco": "Comercial"
+            }
+        ]
+    },
+    {
+        "id_cliente": "cliente005",
+        "nome": "Bruno Fernandes",
+        "email": "bruno.fernandes@example.com",
+        "documento": "789.456.123-00",
+        "telefone": "+55 51 99876-5432",
+        "data_registro": "2019-02-28T07:25:00Z",
+        "data_acesso": "2024-06-26T16:45:00Z",
+        "enderecos_cobranca": [
+            {
+                "id_endereco": "end009",
+                "logradouro": "Rua dos Andradas",
+                "numero": "250",
+                "bairro": "Centro Histórico",
+                "complemento": "Apto 12",
+                "cep": "90020-000",
+                "cidade": "Porto Alegre",
+                "estado": "RS",
+                "pais": "Brasil",
+                "tipo_endereco": "Residencial"
+            }
+        ],
+        "enderecos_entrega": [
+            {
+                "id_endereco": "end010",
+                "logradouro": "Avenida Ipiranga",
+                "numero": "4000",
+                "bairro": "Praia de Belas",
+                "complemento": "Sala 300",
+                "cep": "90160-000",
+                "cidade": "Porto Alegre",
+                "estado": "RS",
+                "pais": "Brasil",
+                "tipo_endereco": "Comercial"
+            }
+        ]
+    }
+]
