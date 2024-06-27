@@ -1,0 +1,151 @@
+[
+    {
+        "id_produto": "001",
+        "id_parceiro": "P001",
+        "id_sku": "SKU001",
+        "descricao": "Notebook Ultra Slim",
+        "categoria": "Informática",
+        "sub_categoria": "Notebooks",
+        "disponibilidade": "Em estoque",
+        "preco": 3999.99,
+        "preco_promocional": 3799.99,
+        "desconto": 5,
+        "imagem": "notebook_ultra_slim.jpg",
+        "parceiro": {
+            "id_parceiro": "P001",
+            "cnpj": "00.000.000/0001-00",
+            "nome": "Tecnologia Avançada",
+            "logo": "tecnologia_avancada_logo.png"
+        },
+        "lista_avaliacoes": [
+            {
+                "id_avaliacao": "AV001",
+                "id_cliente": "C001",
+                "data_avaliacao": "2024-06-25",
+                "nota": 4.5,
+                "titulo": "Ótimo desempenho!",
+                "mensagem": "Rápido e leve, ideal para trabalhar.",
+                "imagem": "avaliacao_notebook.jpg"
+            },
+            {
+                "id_avaliacao": "AV002",
+                "id_cliente": "C002",
+                "data_avaliacao": "2024-06-26",
+                "nota": 4,
+                "titulo": "Boa relação custo-benefício.",
+                "mensagem": "Atende bem às necessidades básicas.",
+                "imagem": ""
+            }
+        ]
+    },
+    {
+        "id_produto": "002",
+        "id_parceiro": "P002",
+        "id_sku": "SKU002",
+        "descricao": "Smart TV LED 50\"",
+        "categoria": "Eletrodomésticos",
+        "sub_categoria": "Televisores",
+        "disponibilidade": "Em estoque",
+        "preco": 2999.99,
+        "preco_promocional": 2799.99,
+        "desconto": 7,
+        "imagem": "smart_tv_50.jpg",
+        "parceiro": {
+            "id_parceiro": "P002",
+            "cnpj": "11.111.111/0001-11",
+            "nome": "Eletro Mais",
+            "logo": "eletro_mais_logo.png"
+        },
+        "lista_avaliacoes": [
+            {
+                "id_avaliacao": "AV003",
+                "id_cliente": "C003",
+                "data_avaliacao": "2024-06-24",
+                "nota": 4.2,
+                "titulo": "Qualidade de imagem excelente.",
+                "mensagem": "Recomendo para quem busca uma boa TV.",
+                "imagem": "avaliacao_smart_tv.jpg"
+            }
+        ]
+    },
+    {
+        "id_produto": "003",
+        "id_parceiro": "P001",
+        "id_sku": "SKU003",
+        "descricao": "Impressora Multifuncional",
+        "categoria": "Informática",
+        "sub_categoria": "Impressoras",
+        "disponibilidade": "Em estoque",
+        "preco": 799.99,
+        "preco_promocional": null,
+        "desconto": null,
+        "imagem": "impressora_multifuncional.jpg",
+        "parceiro": {
+            "id_parceiro": "P001",
+            "cnpj": "00.000.000/0001-00",
+            "nome": "Tecnologia Avançada",
+            "logo": "tecnologia_avancada_logo.png"
+        },
+        "lista_avaliacoes": []
+    },
+    {
+        "id_produto": "004",
+        "id_parceiro": "P003",
+        "id_sku": "SKU004",
+        "descricao": "Ar Condicionado Split 12000 BTUs",
+        "categoria": "Eletrodomésticos",
+        "sub_categoria": "Ar Condicionado",
+        "disponibilidade": "Em estoque",
+        "preco": 2399.99,
+        "preco_promocional": 2199.99,
+        "desconto": 8.3,
+        "imagem": "ar_condicionado_split.jpg",
+        "parceiro": {
+            "id_parceiro": "P003",
+            "cnpj": "22.222.222/0001-22",
+            "nome": "Clima Confortável",
+            "logo": "clima_confortavel_logo.png"
+        },
+        "lista_avaliacoes": [
+            {
+                "id_avaliacao": "AV004",
+                "id_cliente": "C004",
+                "data_avaliacao": "2024-06-25",
+                "nota": 4.8,
+                "titulo": "Ótimo desempenho de refrigeração.",
+                "mensagem": "Silencioso e econômico.",
+                "imagem": ""
+            }
+        ]
+    },
+    {
+        "id_produto": "005",
+        "id_parceiro": "P002",
+        "id_sku": "SKU005",
+        "descricao": "Notebook Gamer",
+        "categoria": "Informática",
+        "sub_categoria": "Notebooks",
+        "disponibilidade": "Em estoque",
+        "preco": 5999.99,
+        "preco_promocional": 5499.99,
+        "desconto": 8.3,
+        "imagem": "notebook_gamer.jpg",
+        "parceiro": {
+            "id_parceiro": "P002",
+            "cnpj": "11.111.111/0001-11",
+            "nome": "Eletro Mais",
+            "logo": "eletro_mais_logo.png"
+        },
+        "lista_avaliacoes": [
+            {
+                "id_avaliacao": "AV005",
+                "id_cliente": "C005",
+                "data_avaliacao": "2024-06-26",
+                "nota": 5,
+                "titulo": "Perfeito para jogos!",
+                "mensagem": "Desempenho incrível, recomendo!",
+                "imagem": "avaliacao_notebook_gamer.jpg"
+            }
+        ]
+    }
+]
