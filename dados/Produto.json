@@ -9,11 +9,11 @@
     "disponibilidade": "em estoque",
     "preco": 1100.0,
     "preco_promocional": 1000.0,
-    "desconto": 9.09,
+    "desconto": 100.0,
     "imagem": "url_imagem_monitor",
     "parceiro": {
       "id_parceiro": "pp001",
-      "cnpj": "123456789",
+      "cnpj": "12.345.678/0001-09",
       "nome": "Techmania",
       "logo": "url_logo_techmania"
     },
@@ -39,11 +39,11 @@
     "disponibilidade": "em estoque",
     "preco": 2500.0,
     "preco_promocional": 2300.0,
-    "desconto": 8,
+    "desconto": 200.0,
     "imagem": "url_imagem_notebook",
     "parceiro": {
       "id_parceiro": "pp002",
-      "cnpj": "987654321",
+      "cnpj": "98.765.432/0001-01",
       "nome": "Tecnoshop",
       "logo": "url_logo_tecnoshop"
     },
@@ -69,11 +69,11 @@
     "disponibilidade": "em estoque",
     "preco": 350.0,
     "preco_promocional": 300.0,
-    "desconto": 14.29,
+    "desconto": 50.0,
     "imagem": "url_imagem_mouse",
     "parceiro": {
       "id_parceiro": "pp003",
-      "cnpj": "567891234",
+      "cnpj": "56.789.123/0001-04",
       "nome": "Eletrohouse",
       "logo": "url_logo_eletrohouse"
     },
@@ -99,11 +99,11 @@
     "disponibilidade": "em estoque",
     "preco": 1200.0,
     "preco_promocional": 1000.0,
-    "desconto": 16.67,
+    "desconto": 200.0,
     "imagem": "url_imagem_teclado",
     "parceiro": {
       "id_parceiro": "pp004",
-      "cnpj": "345678912",
+      "cnpj": "34.567.891./0001-02",
       "nome": "Techmania",
       "logo": "url_logo_techmania"
     },
@@ -129,11 +129,11 @@
     "disponibilidade": "em estoque",
     "preco": 300.0,
     "preco_promocional": 250.0,
-    "desconto": 16.67,
+    "desconto": 50.0,
     "imagem": "url_imagem_headset",
     "parceiro": {
       "id_parceiro": "pp005",
-      "cnpj": "456789123",
+      "cnpj": "45.678.912/0001-03",
       "nome": "Eletrotop",
       "logo": "url_logo_eletrotop"
     },

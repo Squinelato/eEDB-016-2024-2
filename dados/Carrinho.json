@@ -2,7 +2,7 @@
   {
     "id_carrinho": "cr001",
     "id_cliente": "c001",
-    "preco_total": 0,
+    "preco_total": 1323.38,
     "itens_carrinho": [
       {
         "id_item": "ci001",
@@ -17,11 +17,11 @@
             "disponibilidade": "em estoque",
             "preco": 1100.0,
             "preco_promocional": 1000.0,
-            "desconto": 9.09,
+            "desconto": 100.0,
             "imagem": "url_imagem_monitor",
             "parceiro": {
               "id_parceiro": "pp001",
-              "cnpj": "123456789",
+              "cnpj": "12.345.678/0001-09",
               "nome": "Techmania",
               "logo": "url_logo_techmania"
             }
@@ -41,11 +41,11 @@
             "disponibilidade": "em estoque",
             "preco": 350.0,
             "preco_promocional": 300.0,
-            "desconto": 14.29,
+            "desconto": 50.0,
             "imagem": "url_imagem_mouse",
             "parceiro": {
               "id_parceiro": "pp003",
-              "cnpj": "567891234",
+              "cnpj": "56.789.123/0001-04",
               "nome": "Eletrohouse",
               "logo": "url_logo_eletrohouse"
             }
@@ -57,7 +57,7 @@
   {
     "id_carrinho": "cr002",
     "id_cliente": "c002",
-    "preco_total": 0,
+    "preco_total": 2338,
     "itens_carrinho": [
       {
         "id_item": "ci003",
@@ -72,11 +72,11 @@
             "disponibilidade": "em estoque",
             "preco": 2500.0,
             "preco_promocional": 2300.0,
-            "desconto": 8,
+            "desconto": 200.0,
             "imagem": "url_imagem_notebook",
             "parceiro": {
               "id_parceiro": "pp002",
-              "cnpj": "987654321",
+              "cnpj": "98.765.432/0001-01",
               "nome": "Tecnoshop",
               "logo": "url_logo_tecnoshop"
             }
@@ -88,7 +88,7 @@
   {
     "id_carrinho": "cr003",
     "id_cliente": "c003",
-    "preco_total": 0,
+    "preco_total": 1016.67,
     "itens_carrinho": [
       {
         "id_item": "ci004",
@@ -103,11 +103,11 @@
             "disponibilidade": "em estoque",
             "preco": 1200.0,
             "preco_promocional": 1000.0,
-            "desconto": 16.67,
+            "desconto": 200.0,
             "imagem": "url_imagem_teclado",
             "parceiro": {
               "id_parceiro": "pp004",
-              "cnpj": "345678912",
+              "cnpj": "34.567.891./0001-02",
               "nome": "Techmania",
               "logo": "url_logo_techmania"
             }
@@ -119,7 +119,7 @@
   {
     "id_carrinho": "cr004",
     "id_cliente": "c004",
-    "preco_total": 0,
+    "preco_total": 1009.09,
     "itens_carrinho": [
       {
         "id_item": "ci005",
@@ -134,11 +134,11 @@
             "disponibilidade": "em estoque",
             "preco": 1100.0,
             "preco_promocional": 1000.0,
-            "desconto": 9.09,
+            "desconto": 100.0,
             "imagem": "url_imagem_monitor",
             "parceiro": {
               "id_parceiro": "pp001",
-              "cnpj": "123456789",
+              "cnpj": "12.345.678/0001-09",
               "nome": "Techmania",
               "logo": "url_logo_techmania"
             }
@@ -150,7 +150,7 @@
   {
     "id_carrinho": "cr005",
     "id_cliente": "c005",
-    "preco_total": 0,
+    "preco_total": 266.67,
     "itens_carrinho": [
       {
         "id_item": "ci006",
@@ -165,13 +165,75 @@
             "disponibilidade": "em estoque",
             "preco": 300.0,
             "preco_promocional": 250.0,
-            "desconto": 16.67,
+            "desconto": 50.0,
             "imagem": "url_imagem_headset",
             "parceiro": {
               "id_parceiro": "pp005",
-              "cnpj": "456789123",
+              "cnpj": "45.678.912/0001-03",
               "nome": "Eletrotop",
               "logo": "url_logo_eletrotop"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_carrinho": "cr006",
+    "id_cliente": "c003",
+    "preco_total": 1016.67,
+    "itens_carrinho": [
+      {
+        "id_item": "ci007",
+        "produto": [
+          {
+            "id_produto": "pr003",
+            "id_parceiro": "pp003",
+            "id_sku": "sku003",
+            "descricao": "Mouse Gamer Razer DeathAdder",
+            "categoria": "Tecnologia",
+            "sub_categoria": "Periféricos",
+            "disponibilidade": "em estoque",
+            "preco": 350.0,
+            "preco_promocional": 300.0,
+            "desconto": 14.29,
+            "imagem": "url_imagem_mouse",
+            "parceiro": {
+              "id_parceiro": "pp003",
+              "cnpj": "56.789.123/0001-04",
+              "nome": "Eletrohouse",
+              "logo": "url_logo_eletrohouse"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id_carrinho": "cr007",
+    "id_cliente": "c004",
+    "preco_total": 1018.2,
+    "itens_carrinho": [
+      {
+        "id_item": "ci005",
+        "produto": [
+          {
+            "id_produto": "pr001",
+            "id_parceiro": "pp001",
+            "id_sku": "sku001",
+            "descricao": "Monitor LG UltraWide 29\"",
+            "categoria": "Tecnologia",
+            "sub_categoria": "Monitores",
+            "disponibilidade": "em estoque",
+            "preco": 1200.0,
+            "preco_promocional": 1000.0,
+            "desconto": 200.0,
+            "imagem": "url_imagem_monitor",
+            "parceiro": {
+              "id_parceiro": "pp001",
+              "cnpj": "12.345.678/0001-09",
+              "nome": "Techmania",
+              "logo": "url_logo_techmania"
             }
           }
         ]

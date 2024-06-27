@@ -1,12 +1,12 @@
 [
   {
-    "id_pedido": "p001",
+    "id_pedido": "p001-1",
     "id_cliente": "c001",
     "id_pedido_parceiro": "pp001",
     "status_pedido": "em andamento",
     "data_pedido": "2024-06-26",
     "data_cancelamento": "",
-    "valor_total": 150.0,
+    "valor_total": 1009.09,
     "itens_pedido": [
       {
         "id_item": "i001",
@@ -19,11 +19,11 @@
         "disponibilidade": "em estoque",
         "preco": 1100.0,
         "preco_promocional": 1000.0,
-        "desconto": 9.09,
+        "desconto": 100.0,
         "imagem": "url_imagem_monitor",
         "parceiro": {
           "id_parceiro": "pp001",
-          "cnpj": "123456789",
+          "cnpj": "12.345.678/0001-09",
           "nome": "Techmania",
           "logo": "url_logo_techmania"
         },
@@ -54,13 +54,66 @@
     }
   },
   {
+    "id_pedido": "p001-2",
+    "id_cliente": "c001",
+    "id_pedido_parceiro": "pp001",
+    "status_pedido": "em andamento",
+    "data_pedido": "2024-06-26",
+    "data_cancelamento": "",
+    "valor_total": 314.29,
+    "itens_pedido": [
+      {
+        "id_produto": "pr003",
+        "id_parceiro": "pp003",
+        "id_sku": "sku003",
+        "descricao": "Mouse Gamer Razer DeathAdder",
+        "categoria": "Tecnologia",
+        "sub_categoria": "Periféricos",
+        "disponibilidade": "em estoque",
+        "preco": 350.0,
+        "preco_promocional": 300.0,
+        "desconto": 50.0,
+        "imagem": "url_imagem_mouse",
+        "parceiro": {
+          "id_parceiro": "pp003",
+          "cnpj": "56.789.123/0001-04",
+          "nome": "Eletrohouse",
+          "logo": "url_logo_eletrohouse"
+        },
+        "lista_avaliacoes": [
+          {
+            "id_avaliacao": "av003",
+            "id_cliente": "c003",
+            "data_avaliacao": "2024-06-26",
+            "nota": 4.2,
+            "titulo": "Ótimo mouse para jogos",
+            "mensagem": "Muito preciso e confortável.",
+            "imagem": "url_imagem_avaliacao_mouse"
+          }
+        ]
+      }
+    ],
+    "endereco_entrega": {
+      "id_endereco": "e001",
+      "logradouro": "Rua das Flores",
+      "numero": "100",
+      "bairro": "Centro",
+      "complemento": "Apto 101",
+      "cep": "12345-678",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "pais": "Brasil",
+      "tipo": "residencial"
+    }
+  },
+  {
     "id_pedido": "p002",
     "id_cliente": "c002",
     "id_pedido_parceiro": "pp002",
-    "status_pedido": "pendente",
+    "status_pedido": "pendente pagamento",
     "data_pedido": "2024-06-27",
     "data_cancelamento": "",
-    "valor_total": 280.0,
+    "valor_total": 2338.0,
     "itens_pedido": [
       {
         "id_item": "i002",
@@ -73,11 +126,11 @@
         "disponibilidade": "em estoque",
         "preco": 2500.0,
         "preco_promocional": 2300.0,
-        "desconto": 8,
+        "desconto": 200,
         "imagem": "url_imagem_notebook",
         "parceiro": {
           "id_parceiro": "pp002",
-          "cnpj": "987654321",
+          "cnpj": "98.765.432/0001-01",
           "nome": "Tecnoshop",
           "logo": "url_logo_tecnoshop"
         },
@@ -110,11 +163,11 @@
   {
     "id_pedido": "p003",
     "id_cliente": "c003",
-    "id_pedido_parceiro": "pp003",
+    "id_pedido_parceiro": "LSKHVLKSN",
     "status_pedido": "concluído",
     "data_pedido": "2024-06-25",
     "data_cancelamento": "",
-    "valor_total": 750.0,
+    "valor_total": 314.29,
     "itens_pedido": [
       {
         "id_item": "i003",
@@ -131,7 +184,7 @@
         "imagem": "url_imagem_mouse",
         "parceiro": {
           "id_parceiro": "pp003",
-          "cnpj": "567891234",
+          "cnpj": "56.789.123/0001-04",
           "nome": "Eletrohouse",
           "logo": "url_logo_eletrohouse"
         },
@@ -168,7 +221,7 @@
     "status_pedido": "entregue",
     "data_pedido": "2024-06-24",
     "data_cancelamento": "",
-    "valor_total": 320.0,
+    "valor_total": 1016.67,
     "itens_pedido": [
       {
         "id_item": "i004",
@@ -181,11 +234,11 @@
         "disponibilidade": "em estoque",
         "preco": 1200.0,
         "preco_promocional": 1000.0,
-        "desconto": 16.67,
+        "desconto": 200.0,
         "imagem": "url_imagem_teclado",
         "parceiro": {
           "id_parceiro": "pp004",
-          "cnpj": "345678912",
+          "cnpj": "34.567.891./0001-02",
           "nome": "Techmania",
           "logo": "url_logo_techmania"
         },
@@ -218,11 +271,11 @@
   {
     "id_pedido": "p005",
     "id_cliente": "c005",
-    "id_pedido_parceiro": "pp005",
+    "id_pedido_parceiro": "DALFHKADHGLA",
     "status_pedido": "cancelado",
     "data_pedido": "2024-06-23",
     "data_cancelamento": "2024-06-25",
-    "valor_total": 180.0,
+    "valor_total": 266.67,
     "itens_pedido": [
       {
         "id_item": "i005",
@@ -235,11 +288,11 @@
         "disponibilidade": "em estoque",
         "preco": 300.0,
         "preco_promocional": 250.0,
-        "desconto": 16.67,
+        "desconto": 50.0,
         "imagem": "url_imagem_headset",
         "parceiro": {
           "id_parceiro": "pp005",
-          "cnpj": "456789123",
+          "cnpj": "45.678.912/0001-03",
           "nome": "Eletrotop",
           "logo": "url_logo_eletrotop"
         },
