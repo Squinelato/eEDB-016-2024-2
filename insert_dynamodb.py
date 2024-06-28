@@ -25,7 +25,7 @@ def insert(table_name: str, file_path: str) -> NoReturn:
         json_list = json.load(file, parse_float=Decimal)
 
         batches = batched(json_list, 25)
-        print(f"Splitting items into {len(batches)} batches of 25 items")
+        print("Splitting items into batches of 25 items")
 
         for index, batch in enumerate(batches):
 
