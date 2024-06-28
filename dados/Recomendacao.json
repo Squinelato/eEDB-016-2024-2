@@ -3,54 +3,66 @@
     "id_recomendacao": "rec001",
     "id_cliente": "c001",
     "data_geracao": "2024-06-27",
-    "produto": {
-      "id_produto": "pr002",
-      "descricao": "Notebook Dell XPS"
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr002",
+        "descricao": "Notebook Dell XPS"
+      }
+    ]
   },
   {
     "id_recomendacao": "rec002",
     "id_cliente": "c002",
     "data_geracao": "2024-06-28",
-    "produto": {
-      "id_produto": "pr001",
-      "descricao": "Monitor LG UltraWide 29\""
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr001",
+        "descricao": "Monitor LG UltraWide 29\""
+      }
+    ]
   },
   {
     "id_recomendacao": "rec003",
     "id_cliente": "c003",
     "data_geracao": "2024-06-25",
-    "produto": {
-      "id_produto": "pr004",
-      "descricao": "Teclado mecânico Corsair K95 RGB Platinum"
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr004",
+        "descricao": "Teclado mecânico Corsair K95 RGB Platinum"
+      }
+    ]
   },
   {
     "id_recomendacao": "rec004",
     "id_cliente": "c004",
     "data_geracao": "2024-06-25",
-    "produto": {
-      "id_produto": "pr003",
-      "descricao": "Mouse Gamer Razer DeathAdder"
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr003",
+        "descricao": "Mouse Gamer Razer DeathAdder"
+      }
+    ]
   },
   {
     "id_recomendacao": "rec005",
     "id_cliente": "c005",
     "data_geracao": "2024-06-24",
-    "produto": {
-      "id_produto": "pr005",
-      "descricao": "Headset Gamer HyperX Cloud Alpha"
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr005",
+        "descricao": "Headset Gamer HyperX Cloud Alpha"
+      }
+    ]
   },
   {
     "id_recomendacao": "rec006",
     "id_cliente": "c001",
     "data_geracao": "2024-06-28",
-    "produto": {
-      "id_produto": "pr001",
-      "descricao": "Monitor LG UltraWide 29\""
-    }
+    "lista_produtos": [
+      {
+        "id_produto": "pr001",
+        "descricao": "Monitor LG UltraWide 29\""
+      }
+    ]
   }
 ]
