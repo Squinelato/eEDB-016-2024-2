@@ -41,16 +41,16 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e001",
+      "id_endereco": "e002",
       "logradouro": "Rua das Flores",
-      "numero": "100",
+      "numero": "200",
       "bairro": "Centro",
-      "complemento": "Apto 101",
+      "complemento": "",
       "cep": "12345-678",
       "cidade": "São Paulo",
       "estado": "SP",
       "pais": "Brasil",
-      "tipo": "residencial"
+      "tipo_endereco": "residencial"
     }
   },
   {
@@ -94,16 +94,16 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e001",
+      "id_endereco": "e002",
       "logradouro": "Rua das Flores",
-      "numero": "100",
+      "numero": "200",
       "bairro": "Centro",
-      "complemento": "Apto 101",
+      "complemento": "",
       "cep": "12345-678",
       "cidade": "São Paulo",
       "estado": "SP",
       "pais": "Brasil",
-      "tipo": "residencial"
+      "tipo_endereco": "residencial"
     }
   },
   {
@@ -148,16 +148,16 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e002",
-      "logradouro": "Av. Paulista",
-      "numero": "500",
-      "bairro": "Bela Vista",
-      "complemento": "Sala 301",
-      "cep": "54321-098",
-      "cidade": "São Paulo",
-      "estado": "SP",
+      "id_endereco": "e003",
+      "logradouro": "Rua das Palmeiras",
+      "numero": "300",
+      "bairro": "Jardim Botânico",
+      "complemento": "",
+      "cep": "76543-210",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
       "pais": "Brasil",
-      "tipo": "comercial"
+      "tipo_endereco": "residencial"
     }
   },
   {
@@ -202,16 +202,16 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e003",
-      "logradouro": "Rua das Palmeiras",
-      "numero": "300",
-      "bairro": "Jardim Botânico",
-      "complemento": "",
-      "cep": "76543-210",
-      "cidade": "Rio de Janeiro",
-      "estado": "RJ",
+      "id_endereco": "e006",
+      "logradouro": "Av. Amazonas",
+      "numero": "1000",
+      "bairro": "Centro",
+      "complemento": "Sala 1501",
+      "cep": "30180-001",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
       "pais": "Brasil",
-      "tipo": "residencial"
+      "tipo_endereco": "comercial"
     }
   },
   {
@@ -256,16 +256,16 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e004",
-      "logradouro": "Av. das Nações Unidas",
-      "numero": "700",
-      "bairro": "Vila Gertrudes",
-      "complemento": "Bloco C, apto 501",
-      "cep": "87654-321",
+      "id_endereco": "e007",
+      "logradouro": "Rua Augusta",
+      "numero": "1500",
+      "bairro": "Consolação",
+      "complemento": "Apto 301",
+      "cep": "01234-567",
       "cidade": "São Paulo",
       "estado": "SP",
       "pais": "Brasil",
-      "tipo": "residencial"
+      "tipo_endereco": "residencial"
     }
   },
   {
@@ -310,7 +310,7 @@
       }
     ],
     "endereco_entrega": {
-      "id_endereco": "e005",
+      "id_endereco": "e010",
       "logradouro": "Rua do Comércio",
       "numero": "150",
       "bairro": "Centro",
@@ -319,7 +319,7 @@
       "cidade": "Curitiba",
       "estado": "PR",
       "pais": "Brasil",
-      "tipo": "comercial"
+      "tipo_endereco": "comercial"
     }
   }
 ]

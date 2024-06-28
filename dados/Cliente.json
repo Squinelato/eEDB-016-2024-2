@@ -7,9 +7,9 @@
     "telefone": "(11) 98765-4321",
     "data_registro": "2023-05-10",
     "data_acesso": "2024-06-27",
-    "enderecos_cobranca": [
+    "lista_enderecos": [
       {
-        "id_endereco": "ec001",
+        "id_endereco": "e001",
         "logradouro": "Av. Paulista",
         "numero": "1000",
         "bairro": "Bela Vista",
@@ -19,11 +19,9 @@
         "estado": "SP",
         "pais": "Brasil",
         "tipo_endereco": "residencial"
-      }
-    ],
-    "enderecos_entrega": [
+      },
       {
-        "id_endereco": "ee001",
+        "id_endereco": "e002",
         "logradouro": "Rua das Flores",
         "numero": "200",
         "bairro": "Centro",
@@ -46,7 +44,7 @@
     "data_acesso": "2024-06-27",
     "enderecos_cobranca": [
       {
-        "id_endereco": "ec002",
+        "id_endereco": "e003",
         "logradouro": "Rua das Palmeiras",
         "numero": "300",
         "bairro": "Jardim Botânico",
@@ -56,11 +54,9 @@
         "estado": "RJ",
         "pais": "Brasil",
         "tipo_endereco": "residencial"
-      }
-    ],
-    "enderecos_entrega": [
+      },
       {
-        "id_endereco": "ee002",
+        "id_endereco": "e004",
         "logradouro": "Av. Atlântica",
         "numero": "500",
         "bairro": "Copacabana",
@@ -83,7 +79,7 @@
     "data_acesso": "2024-06-27",
     "enderecos_cobranca": [
       {
-        "id_endereco": "ec003",
+        "id_endereco": "e005",
         "logradouro": "Av. Sete de Setembro",
         "numero": "700",
         "bairro": "Centro",
@@ -93,11 +89,9 @@
         "estado": "MG",
         "pais": "Brasil",
         "tipo_endereco": "residencial"
-      }
-    ],
-    "enderecos_entrega": [
+      },
       {
-        "id_endereco": "ee003",
+        "id_endereco": "e006",
         "logradouro": "Av. Amazonas",
         "numero": "1000",
         "bairro": "Centro",
@@ -120,7 +114,7 @@
     "data_acesso": "2024-06-27",
     "enderecos_cobranca": [
       {
-        "id_endereco": "ec004",
+        "id_endereco": "e007",
         "logradouro": "Rua Augusta",
         "numero": "1500",
         "bairro": "Consolação",
@@ -130,11 +124,9 @@
         "estado": "SP",
         "pais": "Brasil",
         "tipo_endereco": "residencial"
-      }
-    ],
-    "enderecos_entrega": [
+      },
       {
-        "id_endereco": "ee004",
+        "id_endereco": "e008",
         "logradouro": "Rua Oscar Freire",
         "numero": "2000",
         "bairro": "Jardins",
@@ -157,7 +149,7 @@
     "data_acesso": "2024-06-27",
     "enderecos_cobranca": [
       {
-        "id_endereco": "ec005",
+        "id_endereco": "e009",
         "logradouro": "Av. República Argentina",
         "numero": "2500",
         "bairro": "Água Verde",
@@ -167,11 +159,9 @@
         "estado": "PR",
         "pais": "Brasil",
         "tipo_endereco": "residencial"
-      }
-    ],
-    "enderecos_entrega": [
+      },
       {
-        "id_endereco": "ee005",
+        "id_endereco": "e010",
         "logradouro": "Rua do Comércio",
         "numero": "150",
         "bairro": "Centro",
