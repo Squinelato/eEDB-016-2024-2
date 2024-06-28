@@ -23,7 +23,7 @@
     "id_lista_desejo": "ld002",
     "id_cliente": "c002",
     "nome_lista": "Upgrade para o setup de trabalho",
-    "data_geracao": "2024-06-28",
+    "data_geracao": "2024-06-27",
     "produtos": [
       {
         "id_produto": "pr001",
@@ -76,6 +76,18 @@
       {
         "id_produto": "pr005",
         "descricao": "Headset Gamer HyperX Cloud Alpha"
+      }
+    ]
+  },
+  {
+    "id_lista_desejo": "ld006",
+    "id_cliente": "c002",
+    "nome_lista": "Presente para meu sobrinho",
+    "data_geracao": "2024-06-28",
+    "produtos": [
+      {
+        "id_produto": "pr003",
+        "descricao": "Mouse Gamer Razer DeathAdder"
       }
     ]
   }

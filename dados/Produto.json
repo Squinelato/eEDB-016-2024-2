@@ -148,5 +148,25 @@
         "imagem": "url_imagem_avaliacao_headset"
       }
     ]
+  },
+  {
+    "id_produto": "pr006",
+    "id_parceiro": "pp003",
+    "id_sku": "sku006",
+    "descricao": "Controle sem fio Xbox Series",
+    "categoria": "Tecnologia",
+    "sub_categoria": "Periféricos",
+    "disponibilidade": "em estoque",
+    "preco": 375.0,
+    "preco_promocional": 350.0,
+    "desconto": 25.0,
+    "imagem": "url_imagem_controle_xbox_series",
+    "parceiro": {
+      "id_parceiro": "pp003",
+      "cnpj": "56.789.123/0001-04",
+      "nome": "Eletrohouse",
+      "logo": "url_logo_eletrohouse"
+    },
+    "lista_avaliacoes": []
   }
 ]
