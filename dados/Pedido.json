@@ -1,6 +1,7 @@
 [
   {
     "id_pedido": "p001-1",
+    "id_carrinho": "cr001",
     "id_cliente": "c001",
     "id_pedido_parceiro": "pp001",
     "status_pedido": "pagamento confirmado",
@@ -45,6 +46,7 @@
   },
   {
     "id_pedido": "p001-2",
+    "id_carrinho": "cr001",
     "id_cliente": "c001",
     "id_pedido_parceiro": "pp001",
     "status_pedido": "pagamento confirmado",
@@ -88,6 +90,7 @@
   },
   {
     "id_pedido": "p002",
+    "id_carrinho": "cr002",
     "id_cliente": "c002",
     "id_pedido_parceiro": "pp002",
     "status_pedido": "pendente pagamento",
@@ -106,7 +109,7 @@
         "disponibilidade": "em estoque",
         "preco": 2500.0,
         "preco_promocional": 2300.0,
-        "desconto": 200,
+        "desconto": 200.0,
         "imagem": "url_imagem_notebook",
         "parceiro": {
           "id_parceiro": "pp002",
@@ -132,6 +135,7 @@
   },
   {
     "id_pedido": "p003",
+    "id_carrinho": "cr006",
     "id_cliente": "c003",
     "id_pedido_parceiro": "LSKHVLKSN",
     "status_pedido": "concluído",
@@ -150,7 +154,7 @@
         "disponibilidade": "em estoque",
         "preco": 350.0,
         "preco_promocional": 300.0,
-        "desconto": 14.29,
+        "desconto": 50.0,
         "imagem": "url_imagem_mouse",
         "parceiro": {
           "id_parceiro": "pp003",
@@ -186,6 +190,7 @@
   },
   {
     "id_pedido": "p004",
+    "id_carrinho": "cr007",
     "id_cliente": "c004",
     "id_pedido_parceiro": "pp004",
     "status_pedido": "concluído",
@@ -240,6 +245,7 @@
   },
   {
     "id_pedido": "p005",
+    "id_carrinho": "cr005",
     "id_cliente": "c005",
     "id_pedido_parceiro": "DALFHKADHGLA",
     "status_pedido": "cancelado",
