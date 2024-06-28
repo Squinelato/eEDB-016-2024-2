@@ -15,7 +15,7 @@ def insert(table_name: str, file_path: str) -> NoReturn:
     table_name -- The name of the DynamoDB table
     file_path -- the path to the file containing a JSON list of items
     """
-    print(f"Criating DynamoDB client")
+    print(f"Creating DynamoDB client")
     dynamodb = boto3.resource("dynamodb", region_name="us-east-1")
     table = dynamodb.Table(table_name)
 
