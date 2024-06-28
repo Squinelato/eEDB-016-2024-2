@@ -17,17 +17,7 @@
       "nome": "Techmania",
       "logo": "url_logo_techmania"
     },
-    "lista_avaliacoes": [
-      {
-        "id_avaliacao": "av001",
-        "id_cliente": "c001",
-        "data_avaliacao": "2024-06-27",
-        "nota": 4.5,
-        "titulo": "Ótimo monitor!",
-        "mensagem": "Qualidade de imagem excelente.",
-        "imagem": "url_imagem_avaliacao_monitor"
-      }
-    ]
+    "lista_avaliacoes": []
   },
   {
     "id_produto": "pr002",
@@ -47,17 +37,7 @@
       "nome": "Tecnoshop",
       "logo": "url_logo_tecnoshop"
     },
-    "lista_avaliacoes": [
-      {
-        "id_avaliacao": "av002",
-        "id_cliente": "c002",
-        "data_avaliacao": "2024-06-28",
-        "nota": 4.8,
-        "titulo": "Excelente escolha!",
-        "mensagem": "Ótimo desempenho e qualidade.",
-        "imagem": "url_imagem_avaliacao_notebook"
-      }
-    ]
+    "lista_avaliacoes": []
   },
   {
     "id_produto": "pr003",
@@ -77,17 +57,7 @@
       "nome": "Eletrohouse",
       "logo": "url_logo_eletrohouse"
     },
-    "lista_avaliacoes": [
-      {
-        "id_avaliacao": "av003",
-        "id_cliente": "c003",
-        "data_avaliacao": "2024-06-26",
-        "nota": 4.2,
-        "titulo": "Ótimo mouse para jogos",
-        "mensagem": "Muito preciso e confortável.",
-        "imagem": "url_imagem_avaliacao_mouse"
-      }
-    ]
+    "lista_avaliacoes": []
   },
   {
     "id_produto": "pr004",
@@ -137,17 +107,7 @@
       "nome": "Eletrotop",
       "logo": "url_logo_eletrotop"
     },
-    "lista_avaliacoes": [
-      {
-        "id_avaliacao": "av005",
-        "id_cliente": "c005",
-        "data_avaliacao": "2024-06-24",
-        "nota": 3.9,
-        "titulo": "Qualidade de som poderia ser melhor",
-        "mensagem": "Confortável, mas esperava melhor qualidade de som.",
-        "imagem": "url_imagem_avaliacao_headset"
-      }
-    ]
+    "lista_avaliacoes": []
   },
   {
     "id_produto": "pr006",
