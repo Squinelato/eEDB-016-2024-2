@@ -57,11 +57,30 @@
   {
     "id_carrinho": "cr002",
     "id_cliente": "c002",
-    "preco_total": 2300.0,
+    "preco_total": 4600.0,
     "itens_carrinho": [
       {
         "id_item": "ci003",
         "produto": [
+          {
+            "id_produto": "pr002",
+            "id_parceiro": "pp002",
+            "id_sku": "sku002",
+            "descricao": "Notebook Dell XPS",
+            "categoria": "Tecnologia",
+            "sub_categoria": "Notebooks",
+            "disponibilidade": "em estoque",
+            "preco": 2500.0,
+            "preco_promocional": 2300.0,
+            "desconto": 200.0,
+            "imagem": "url_imagem_notebook",
+            "parceiro": {
+              "id_parceiro": "pp002",
+              "cnpj": "98.765.432/0001-01",
+              "nome": "Tecnoshop",
+              "logo": "url_logo_tecnoshop"
+            }
+          },
           {
             "id_produto": "pr002",
             "id_parceiro": "pp002",
