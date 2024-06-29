@@ -96,10 +96,31 @@
     "status_pedido": "pendente pagamento",
     "data_pedido": "2024-06-27",
     "data_cancelamento": "",
-    "valor_total": 2338.0,
+    "valor_total": 4638.0,
     "itens_pedido": [
       {
         "id_item": "i002",
+        "id_produto": "pr002",
+        "id_parceiro": "pp002",
+        "id_sku": "sku002",
+        "descricao": "Notebook Dell XPS",
+        "categoria": "Tecnologia",
+        "sub_categoria": "Notebooks",
+        "disponibilidade": "em estoque",
+        "preco": 2500.0,
+        "preco_promocional": 2300.0,
+        "desconto": 200.0,
+        "imagem": "url_imagem_notebook",
+        "parceiro": {
+          "id_parceiro": "pp002",
+          "cnpj": "98.765.432/0001-01",
+          "nome": "Tecnoshop",
+          "logo": "url_logo_tecnoshop"
+        },
+        "lista_avaliacoes": []
+      },
+      {
+        "id_item": "i003",
         "id_produto": "pr002",
         "id_parceiro": "pp002",
         "id_sku": "sku002",
@@ -144,7 +165,7 @@
     "valor_total": 314.29,
     "itens_pedido": [
       {
-        "id_item": "i003",
+        "id_item": "i004",
         "id_produto": "pr003",
         "id_parceiro": "pp003",
         "id_sku": "sku003",
@@ -199,7 +220,7 @@
     "valor_total": 1016.67,
     "itens_pedido": [
       {
-        "id_item": "i004",
+        "id_item": "i005",
         "id_produto": "pr004",
         "id_parceiro": "pp004",
         "id_sku": "sku004",
@@ -254,7 +275,7 @@
     "valor_total": 266.67,
     "itens_pedido": [
       {
-        "id_item": "i005",
+        "id_item": "i006",
         "id_produto": "pr005",
         "id_parceiro": "pp005",
         "id_sku": "sku005",
