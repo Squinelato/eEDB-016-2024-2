@@ -168,6 +168,8 @@ Resources:
           AttributeType: "S"
         - AttributeName: "id_parceiro"
           AttributeType: "S"
+        - AttributeName: "preco"
+          AttributeType: "N"
       KeySchema: 
         - AttributeName: "id_produto"
           KeyType: "HASH"
@@ -179,6 +181,8 @@ Resources:
           KeySchema:
             - AttributeName: "id_parceiro"
               KeyType: "HASH"
+            - AttributeName: "preco"
+              KeyType: "RANGE"
           Projection:
             ProjectionType: "ALL"
           ProvisionedThroughput:
