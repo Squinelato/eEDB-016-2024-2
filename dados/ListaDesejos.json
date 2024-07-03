@@ -4,7 +4,7 @@
     "id_cliente": "c001",
     "nome_lista": "Gadgets para o home office",
     "data_geracao": "2024-06-27",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr002",
         "descricao": "Notebook Dell XPS"
@@ -24,7 +24,7 @@
     "id_cliente": "c002",
     "nome_lista": "Upgrade para o setup de trabalho",
     "data_geracao": "2024-06-27",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr001",
         "descricao": "Monitor LG UltraWide 29\""
@@ -40,7 +40,7 @@
     "id_cliente": "c003",
     "nome_lista": "Equipamentos para streaming",
     "data_geracao": "2024-06-25",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr001",
         "descricao": "Monitor LG UltraWide 29\""
@@ -56,7 +56,7 @@
     "id_cliente": "c004",
     "nome_lista": "Periféricos para gamers",
     "data_geracao": "2024-06-25",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr003",
         "descricao": "Mouse Gamer Razer DeathAdder"
@@ -72,7 +72,7 @@
     "id_cliente": "c005",
     "nome_lista": "Headsets para jogos",
     "data_geracao": "2024-06-24",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr005",
         "descricao": "Headset Gamer HyperX Cloud Alpha"
@@ -84,7 +84,7 @@
     "id_cliente": "c002",
     "nome_lista": "Presente para meu sobrinho",
     "data_geracao": "2024-06-28",
-    "produtos": [
+    "lista_produtos": [
       {
         "id_produto": "pr003",
         "descricao": "Mouse Gamer Razer DeathAdder"
