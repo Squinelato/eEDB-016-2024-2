@@ -1,312 +1,312 @@
 [
   {
-    "id_pedido": "p001-1",
-    "id_carrinho": "cr001",
-    "id_cliente": "c001",
-    "id_pedido_parceiro": "pp001",
-    "status_pedido": "pagamento confirmado",
-    "data_pedido": "2024-06-26",
-    "data_cancelamento": "",
-    "valor_total": 1009.09,
-    "itens_pedido": [
-      {
-        "id_item": "i001",
-        "id_produto": "pr001",
-        "id_parceiro": "pp001",
-        "id_sku": "sku001",
-        "descricao": "Monitor LG UltraWide 29\"",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Monitores",
-        "disponibilidade": "em estoque",
-        "preco": 1100.0,
-        "preco_promocional": 1000.0,
-        "desconto": 100.0,
-        "imagem": "url_imagem_monitor",
-        "parceiro": {
-          "id_parceiro": "pp001",
-          "cnpj": "12.345.678/0001-09",
-          "nome": "Techmania",
-          "logo": "url_logo_techmania"
-        },
-        "lista_avaliacoes": []
-      }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e002",
-      "logradouro": "Rua das Flores",
-      "numero": "200",
-      "bairro": "Centro",
-      "complemento": "",
-      "cep": "12345-678",
-      "cidade": "São Paulo",
-      "estado": "SP",
-      "pais": "Brasil",
-      "tipo_endereco": "residencial"
-    }
-  },
-  {
-    "id_pedido": "p001-2",
-    "id_carrinho": "cr001",
-    "id_cliente": "c001",
-    "id_pedido_parceiro": "pp001",
-    "status_pedido": "pagamento confirmado",
-    "data_pedido": "2024-06-26",
-    "data_cancelamento": "",
-    "valor_total": 314.29,
-    "itens_pedido": [
-      {
-        "id_produto": "pr003",
-        "id_parceiro": "pp003",
-        "id_sku": "sku003",
-        "descricao": "Mouse Gamer Razer DeathAdder",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Periféricos",
-        "disponibilidade": "em estoque",
-        "preco": 350.0,
-        "preco_promocional": 300.0,
-        "desconto": 50.0,
-        "imagem": "url_imagem_mouse",
-        "parceiro": {
-          "id_parceiro": "pp003",
-          "cnpj": "56.789.123/0001-04",
-          "nome": "Eletrohouse",
-          "logo": "url_logo_eletrohouse"
-        },
-        "lista_avaliacoes": []
-      }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e002",
-      "logradouro": "Rua das Flores",
-      "numero": "200",
-      "bairro": "Centro",
-      "complemento": "",
-      "cep": "12345-678",
-      "cidade": "São Paulo",
-      "estado": "SP",
-      "pais": "Brasil",
-      "tipo_endereco": "residencial"
-    }
-  },
-  {
-    "id_pedido": "p002",
-    "id_carrinho": "cr002",
-    "id_cliente": "c002",
-    "id_pedido_parceiro": "pp002",
-    "status_pedido": "pendente pagamento",
-    "data_pedido": "2024-06-27",
-    "data_cancelamento": "",
-    "valor_total": 4638.0,
-    "itens_pedido": [
-      {
-        "id_item": "i002",
-        "id_produto": "pr002",
-        "id_parceiro": "pp002",
-        "id_sku": "sku002",
-        "descricao": "Notebook Dell XPS",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Notebooks",
-        "disponibilidade": "em estoque",
-        "preco": 2500.0,
-        "preco_promocional": 2300.0,
-        "desconto": 200.0,
-        "imagem": "url_imagem_notebook",
-        "parceiro": {
-          "id_parceiro": "pp002",
-          "cnpj": "98.765.432/0001-01",
-          "nome": "Tecnoshop",
-          "logo": "url_logo_tecnoshop"
-        },
-        "lista_avaliacoes": []
-      },
-      {
-        "id_item": "i003",
-        "id_produto": "pr002",
-        "id_parceiro": "pp002",
-        "id_sku": "sku002",
-        "descricao": "Notebook Dell XPS",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Notebooks",
-        "disponibilidade": "em estoque",
-        "preco": 2500.0,
-        "preco_promocional": 2300.0,
-        "desconto": 200.0,
-        "imagem": "url_imagem_notebook",
-        "parceiro": {
-          "id_parceiro": "pp002",
-          "cnpj": "98.765.432/0001-01",
-          "nome": "Tecnoshop",
-          "logo": "url_logo_tecnoshop"
-        },
-        "lista_avaliacoes": []
-      }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e003",
-      "logradouro": "Rua das Palmeiras",
-      "numero": "300",
-      "bairro": "Jardim Botânico",
-      "complemento": "",
-      "cep": "76543-210",
-      "cidade": "Rio de Janeiro",
-      "estado": "RJ",
-      "pais": "Brasil",
-      "tipo_endereco": "residencial"
-    }
-  },
-  {
-    "id_pedido": "p003",
-    "id_carrinho": "cr006",
-    "id_cliente": "c003",
-    "id_pedido_parceiro": "LSKHVLKSN",
-    "status_pedido": "concluído",
-    "data_pedido": "2024-06-25",
-    "data_cancelamento": "",
-    "valor_total": 314.29,
-    "itens_pedido": [
-      {
-        "id_item": "i004",
-        "id_produto": "pr003",
-        "id_parceiro": "pp003",
-        "id_sku": "sku003",
-        "descricao": "Mouse Gamer Razer DeathAdder",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Periféricos",
-        "disponibilidade": "em estoque",
-        "preco": 350.0,
-        "preco_promocional": 300.0,
-        "desconto": 50.0,
-        "imagem": "url_imagem_mouse",
-        "parceiro": {
-          "id_parceiro": "pp003",
-          "cnpj": "56.789.123/0001-04",
-          "nome": "Eletrohouse",
-          "logo": "url_logo_eletrohouse"
-        },
-        "lista_avaliacoes": [
+      "id_pedido": "p001-1",
+      "id_carrinho": "cr001",
+      "id_cliente": "c001",
+      "id_pedido_parceiro": "pp001",
+      "status_pedido": "pagamento confirmado",
+      "data_pedido": "2024-06-26",
+      "data_cancelamento": "",
+      "valor_total": 1009.09,
+      "itens_pedido": [
           {
-            "id_avaliacao": "av003",
-            "id_cliente": "c003",
-            "data_avaliacao": "2024-06-26",
-            "nota": 4.2,
-            "titulo": "Ótimo mouse para jogos",
-            "mensagem": "Muito preciso e confortável.",
-            "imagem": "url_imagem_avaliacao_mouse"
+              "id_item": "i001",
+              "id_produto": "pr001",
+              "id_parceiro": "pp001",
+              "id_sku": "sku001",
+              "descricao": "Monitor LG UltraWide 29\"",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Monitores",
+              "disponibilidade": "em estoque",
+              "preco": 1100,
+              "preco_promocional": 1000,
+              "desconto": 100,
+              "imagem": "url_imagem_monitor",
+              "parceiro": {
+                  "id_parceiro": "pp001",
+                  "cnpj": "12.345.678/0001-09",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              },
+              "lista_avaliacoes": []
           }
-        ]
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e002",
+          "logradouro": "Rua das Flores",
+          "numero": "200",
+          "bairro": "Centro",
+          "complemento": "",
+          "cep": "12345-678",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "pais": "Brasil",
+          "tipo_endereco": "residencial"
       }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e006",
-      "logradouro": "Av. Amazonas",
-      "numero": "1000",
-      "bairro": "Centro",
-      "complemento": "Sala 1501",
-      "cep": "30180-001",
-      "cidade": "Belo Horizonte",
-      "estado": "MG",
-      "pais": "Brasil",
-      "tipo_endereco": "comercial"
-    }
   },
   {
-    "id_pedido": "p004",
-    "id_carrinho": "cr007",
-    "id_cliente": "c004",
-    "id_pedido_parceiro": "pp004",
-    "status_pedido": "concluído",
-    "data_pedido": "2024-06-24",
-    "data_cancelamento": "",
-    "valor_total": 1016.67,
-    "itens_pedido": [
-      {
-        "id_item": "i005",
-        "id_produto": "pr004",
-        "id_parceiro": "pp004",
-        "id_sku": "sku004",
-        "descricao": "Teclado mecânico Corsair K95 RGB Platinum",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Periféricos",
-        "disponibilidade": "em estoque",
-        "preco": 1200.0,
-        "preco_promocional": 1000.0,
-        "desconto": 200.0,
-        "imagem": "url_imagem_teclado",
-        "parceiro": {
-          "id_parceiro": "pp004",
-          "cnpj": "34.567.891./0001-02",
-          "nome": "Techmania",
-          "logo": "url_logo_techmania"
-        },
-        "lista_avaliacoes": [
+      "id_pedido": "p001-2",
+      "id_carrinho": "cr001",
+      "id_cliente": "c001",
+      "id_pedido_parceiro": "pp001",
+      "status_pedido": "pagamento confirmado",
+      "data_pedido": "2024-06-26",
+      "data_cancelamento": "",
+      "valor_total": 314.29,
+      "itens_pedido": [
           {
-            "id_avaliacao": "av004",
-            "id_cliente": "c004",
-            "data_avaliacao": "2024-06-25",
-            "nota": 4.6,
-            "titulo": "Excelente teclado para gamers",
-            "mensagem": "Construção robusta e resposta tátil perfeita.",
-            "imagem": "url_imagem_avaliacao_teclado"
+              "id_produto": "pr003",
+              "id_parceiro": "pp003",
+              "id_sku": "sku003",
+              "descricao": "Mouse Gamer Razer DeathAdder",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 350,
+              "preco_promocional": 300,
+              "desconto": 50,
+              "imagem": "url_imagem_mouse",
+              "parceiro": {
+                  "id_parceiro": "pp003",
+                  "cnpj": "56.789.123/0001-04",
+                  "nome": "Eletrohouse",
+                  "logo": "url_logo_eletrohouse"
+              },
+              "lista_avaliacoes": []
           }
-        ]
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e002",
+          "logradouro": "Rua das Flores",
+          "numero": "200",
+          "bairro": "Centro",
+          "complemento": "",
+          "cep": "12345-678",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "pais": "Brasil",
+          "tipo_endereco": "residencial"
       }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e007",
-      "logradouro": "Rua Augusta",
-      "numero": "1500",
-      "bairro": "Consolação",
-      "complemento": "Apto 301",
-      "cep": "01234-567",
-      "cidade": "São Paulo",
-      "estado": "SP",
-      "pais": "Brasil",
-      "tipo_endereco": "residencial"
-    }
   },
   {
-    "id_pedido": "p005",
-    "id_carrinho": "cr005",
-    "id_cliente": "c005",
-    "id_pedido_parceiro": "DALFHKADHGLA",
-    "status_pedido": "cancelado",
-    "data_pedido": "2024-06-23",
-    "data_cancelamento": "2024-06-25",
-    "valor_total": 266.67,
-    "itens_pedido": [
-      {
-        "id_item": "i006",
-        "id_produto": "pr005",
-        "id_parceiro": "pp005",
-        "id_sku": "sku005",
-        "descricao": "Headset Gamer HyperX Cloud Alpha",
-        "categoria": "Tecnologia",
-        "sub_categoria": "Áudio",
-        "disponibilidade": "em estoque",
-        "preco": 300.0,
-        "preco_promocional": 250.0,
-        "desconto": 50.0,
-        "imagem": "url_imagem_headset",
-        "parceiro": {
-          "id_parceiro": "pp005",
-          "cnpj": "45.678.912/0001-03",
-          "nome": "Eletrotop",
-          "logo": "url_logo_eletrotop"
-        },
-        "lista_avaliacoes": []
+      "id_pedido": "p002",
+      "id_carrinho": "cr002",
+      "id_cliente": "c002",
+      "id_pedido_parceiro": "pp002",
+      "status_pedido": "pendente pagamento",
+      "data_pedido": "2024-06-27",
+      "data_cancelamento": "",
+      "valor_total": 4638,
+      "itens_pedido": [
+          {
+              "id_item": "i002",
+              "id_produto": "pr002",
+              "id_parceiro": "pp002",
+              "id_sku": "sku002",
+              "descricao": "Notebook Dell XPS",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Notebooks",
+              "disponibilidade": "em estoque",
+              "preco": 2500,
+              "preco_promocional": 2300,
+              "desconto": 200,
+              "imagem": "url_imagem_notebook",
+              "parceiro": {
+                  "id_parceiro": "pp002",
+                  "cnpj": "98.765.432/0001-01",
+                  "nome": "Tecnoshop",
+                  "logo": "url_logo_tecnoshop"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_item": "i003",
+              "id_produto": "pr002",
+              "id_parceiro": "pp002",
+              "id_sku": "sku002",
+              "descricao": "Notebook Dell XPS",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Notebooks",
+              "disponibilidade": "em estoque",
+              "preco": 2500,
+              "preco_promocional": 2300,
+              "desconto": 200,
+              "imagem": "url_imagem_notebook",
+              "parceiro": {
+                  "id_parceiro": "pp002",
+                  "cnpj": "98.765.432/0001-01",
+                  "nome": "Tecnoshop",
+                  "logo": "url_logo_tecnoshop"
+              },
+              "lista_avaliacoes": []
+          }
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e003",
+          "logradouro": "Rua das Palmeiras",
+          "numero": "300",
+          "bairro": "Jardim Botânico",
+          "complemento": "",
+          "cep": "76543-210",
+          "cidade": "Rio de Janeiro",
+          "estado": "RJ",
+          "pais": "Brasil",
+          "tipo_endereco": "residencial"
       }
-    ],
-    "endereco_entrega": {
-      "id_endereco": "e010",
-      "logradouro": "Rua do Comércio",
-      "numero": "150",
-      "bairro": "Centro",
-      "complemento": "Loja 10",
-      "cep": "65432-109",
-      "cidade": "Curitiba",
-      "estado": "PR",
-      "pais": "Brasil",
-      "tipo_endereco": "comercial"
-    }
+  },
+  {
+      "id_pedido": "p003",
+      "id_carrinho": "cr006",
+      "id_cliente": "c003",
+      "id_pedido_parceiro": "LSKHVLKSN",
+      "status_pedido": "concluído",
+      "data_pedido": "2024-06-25",
+      "data_cancelamento": "",
+      "valor_total": 314.29,
+      "itens_pedido": [
+          {
+              "id_item": "i004",
+              "id_produto": "pr003",
+              "id_parceiro": "pp003",
+              "id_sku": "sku003",
+              "descricao": "Mouse Gamer Razer DeathAdder",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 350,
+              "preco_promocional": 300,
+              "desconto": 50,
+              "imagem": "url_imagem_mouse",
+              "parceiro": {
+                  "id_parceiro": "pp003",
+                  "cnpj": "56.789.123/0001-04",
+                  "nome": "Eletrohouse",
+                  "logo": "url_logo_eletrohouse"
+              },
+              "lista_avaliacoes": [
+                  {
+                      "id_avaliacao": "av003",
+                      "id_cliente": "c003",
+                      "data_avaliacao": "2024-06-26",
+                      "nota": 4.2,
+                      "titulo": "Ótimo mouse para jogos",
+                      "mensagem": "Muito preciso e confortável.",
+                      "imagem": "url_imagem_avaliacao_mouse"
+                  }
+              ]
+          }
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e006",
+          "logradouro": "Av. Amazonas",
+          "numero": "1000",
+          "bairro": "Centro",
+          "complemento": "Sala 1501",
+          "cep": "30180-001",
+          "cidade": "Belo Horizonte",
+          "estado": "MG",
+          "pais": "Brasil",
+          "tipo_endereco": "comercial"
+      }
+  },
+  {
+      "id_pedido": "p004",
+      "id_carrinho": "cr007",
+      "id_cliente": "c004",
+      "id_pedido_parceiro": "pp004",
+      "status_pedido": "concluído",
+      "data_pedido": "2024-06-24",
+      "data_cancelamento": "",
+      "valor_total": 1016.67,
+      "itens_pedido": [
+          {
+              "id_item": "i005",
+              "id_produto": "pr004",
+              "id_parceiro": "pp004",
+              "id_sku": "sku004",
+              "descricao": "Teclado mecânico Corsair K95 RGB Platinum",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 1200,
+              "preco_promocional": 1000,
+              "desconto": 200,
+              "imagem": "url_imagem_teclado",
+              "parceiro": {
+                  "id_parceiro": "pp004",
+                  "cnpj": "34.567.891./0001-02",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              },
+              "lista_avaliacoes": [
+                  {
+                      "id_avaliacao": "av004",
+                      "id_cliente": "c004",
+                      "data_avaliacao": "2024-06-25",
+                      "nota": 4.6,
+                      "titulo": "Excelente teclado para gamers",
+                      "mensagem": "Construção robusta e resposta tátil perfeita.",
+                      "imagem": "url_imagem_avaliacao_teclado"
+                  }
+              ]
+          }
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e007",
+          "logradouro": "Rua Augusta",
+          "numero": "1500",
+          "bairro": "Consolação",
+          "complemento": "Apto 301",
+          "cep": "01234-567",
+          "cidade": "São Paulo",
+          "estado": "SP",
+          "pais": "Brasil",
+          "tipo_endereco": "residencial"
+      }
+  },
+  {
+      "id_pedido": "p005",
+      "id_carrinho": "cr005",
+      "id_cliente": "c005",
+      "id_pedido_parceiro": "DALFHKADHGLA",
+      "status_pedido": "cancelado",
+      "data_pedido": "2024-06-23",
+      "data_cancelamento": "2024-06-25",
+      "valor_total": 266.67,
+      "itens_pedido": [
+          {
+              "id_item": "i006",
+              "id_produto": "pr005",
+              "id_parceiro": "pp005",
+              "id_sku": "sku005",
+              "descricao": "Headset Gamer HyperX Cloud Alpha",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Áudio",
+              "disponibilidade": "em estoque",
+              "preco": 300,
+              "preco_promocional": 250,
+              "desconto": 50,
+              "imagem": "url_imagem_headset",
+              "parceiro": {
+                  "id_parceiro": "pp005",
+                  "cnpj": "45.678.912/0001-03",
+                  "nome": "Eletrotop",
+                  "logo": "url_logo_eletrotop"
+              },
+              "lista_avaliacoes": []
+          }
+      ],
+      "endereco_entrega": {
+          "id_endereco": "e010",
+          "logradouro": "Rua do Comércio",
+          "numero": "150",
+          "bairro": "Centro",
+          "complemento": "Loja 10",
+          "cep": "65432-109",
+          "cidade": "Curitiba",
+          "estado": "PR",
+          "pais": "Brasil",
+          "tipo_endereco": "comercial"
+      }
   }
 ]

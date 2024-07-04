@@ -1,94 +1,279 @@
 [
   {
-    "id_lista_desejo": "ld001",
-    "id_cliente": "c001",
-    "nome_lista": "Gadgets para o home office",
-    "data_geracao": "2024-06-27",
-    "lista_produtos": [
-      {
-        "id_produto": "pr002",
-        "descricao": "Notebook Dell XPS"
-      },
-      {
-        "id_produto": "pr003",
-        "descricao": "Mouse Gamer Razer DeathAdder"
-      },
-      {
-        "id_produto": "pr004",
-        "descricao": "Teclado mecânico Corsair K95 RGB Platinum"
-      }
-    ]
+      "id_lista_desejo": "ld001",
+      "id_cliente": "c001",
+      "nome_lista": "Gadgets para o home office",
+      "data_geracao": "2024-06-27",
+      "lista_produtos": [
+          {
+              "id_produto": "pr002",
+              "id_parceiro": "pp002",
+              "id_sku": "sku002",
+              "descricao": "Notebook Dell XPS",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Notebooks",
+              "disponibilidade": "em estoque",
+              "preco": 2500,
+              "preco_promocional": 2300,
+              "desconto": 200,
+              "imagem": "url_imagem_notebook",
+              "parceiro": {
+                  "id_parceiro": "pp002",
+                  "cnpj": "98.765.432/0001-01",
+                  "nome": "Tecnoshop",
+                  "logo": "url_logo_tecnoshop"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_produto": "pr003",
+              "id_parceiro": "pp003",
+              "id_sku": "sku003",
+              "descricao": "Mouse Gamer Razer DeathAdder",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 350,
+              "preco_promocional": 300,
+              "desconto": 50,
+              "imagem": "url_imagem_mouse",
+              "parceiro": {
+                  "id_parceiro": "pp003",
+                  "cnpj": "56.789.123/0001-04",
+                  "nome": "Eletrohouse",
+                  "logo": "url_logo_eletrohouse"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_produto": "pr004",
+              "id_parceiro": "pp004",
+              "id_sku": "sku004",
+              "descricao": "Teclado mecânico Corsair K95 RGB Platinum",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 1200,
+              "preco_promocional": 1000,
+              "desconto": 200,
+              "imagem": "url_imagem_teclado",
+              "parceiro": {
+                  "id_parceiro": "pp004",
+                  "cnpj": "34.567.891./0001-02",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              }
+          }
+      ]
   },
   {
-    "id_lista_desejo": "ld002",
-    "id_cliente": "c002",
-    "nome_lista": "Upgrade para o setup de trabalho",
-    "data_geracao": "2024-06-27",
-    "lista_produtos": [
-      {
-        "id_produto": "pr001",
-        "descricao": "Monitor LG UltraWide 29\""
-      },
-      {
-        "id_produto": "pr005",
-        "descricao": "Headset Gamer HyperX Cloud Alpha"
-      }
-    ]
+      "id_lista_desejo": "ld002",
+      "id_cliente": "c002",
+      "nome_lista": "Upgrade para o setup de trabalho",
+      "data_geracao": "2024-06-27",
+      "lista_produtos": [
+          {
+              "id_produto": "pr001",
+              "id_parceiro": "pp001",
+              "id_sku": "sku001",
+              "descricao": "Monitor LG UltraWide 29\"",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Monitores",
+              "disponibilidade": "em estoque",
+              "preco": 1100,
+              "preco_promocional": 1000,
+              "desconto": 100,
+              "imagem": "url_imagem_monitor",
+              "parceiro": {
+                  "id_parceiro": "pp001",
+                  "cnpj": "12.345.678/0001-09",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_produto": "pr005",
+              "id_parceiro": "pp005",
+              "id_sku": "sku005",
+              "descricao": "Headset Gamer HyperX Cloud Alpha",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Áudio",
+              "disponibilidade": "em estoque",
+              "preco": 300,
+              "preco_promocional": 250,
+              "desconto": 50,
+              "imagem": "url_imagem_headset",
+              "parceiro": {
+                  "id_parceiro": "pp005",
+                  "cnpj": "45.678.912/0001-03",
+                  "nome": "Eletrotop",
+                  "logo": "url_logo_eletrotop"
+              },
+              "lista_avaliacoes": []
+          }
+      ]
   },
   {
-    "id_lista_desejo": "ld003",
-    "id_cliente": "c003",
-    "nome_lista": "Equipamentos para streaming",
-    "data_geracao": "2024-06-25",
-    "lista_produtos": [
-      {
-        "id_produto": "pr001",
-        "descricao": "Monitor LG UltraWide 29\""
-      },
-      {
-        "id_produto": "pr002",
-        "descricao": "Notebook Dell XPS"
-      }
-    ]
+      "id_lista_desejo": "ld003",
+      "id_cliente": "c003",
+      "nome_lista": "Equipamentos para streaming",
+      "data_geracao": "2024-06-25",
+      "lista_produtos": [
+          {
+              "id_produto": "pr001",
+              "id_parceiro": "pp001",
+              "id_sku": "sku001",
+              "descricao": "Monitor LG UltraWide 29\"",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Monitores",
+              "disponibilidade": "em estoque",
+              "preco": 1100,
+              "preco_promocional": 1000,
+              "desconto": 100,
+              "imagem": "url_imagem_monitor",
+              "parceiro": {
+                  "id_parceiro": "pp001",
+                  "cnpj": "12.345.678/0001-09",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_produto": "pr002",
+              "id_parceiro": "pp002",
+              "id_sku": "sku002",
+              "descricao": "Notebook Dell XPS",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Notebooks",
+              "disponibilidade": "em estoque",
+              "preco": 2500,
+              "preco_promocional": 2300,
+              "desconto": 200,
+              "imagem": "url_imagem_notebook",
+              "parceiro": {
+                  "id_parceiro": "pp002",
+                  "cnpj": "98.765.432/0001-01",
+                  "nome": "Tecnoshop",
+                  "logo": "url_logo_tecnoshop"
+              },
+              "lista_avaliacoes": []
+          }
+      ]
   },
   {
-    "id_lista_desejo": "ld004",
-    "id_cliente": "c004",
-    "nome_lista": "Periféricos para gamers",
-    "data_geracao": "2024-06-25",
-    "lista_produtos": [
-      {
-        "id_produto": "pr003",
-        "descricao": "Mouse Gamer Razer DeathAdder"
-      },
-      {
-        "id_produto": "pr004",
-        "descricao": "Teclado mecânico Corsair K95 RGB Platinum"
-      }
-    ]
+      "id_lista_desejo": "ld004",
+      "id_cliente": "c004",
+      "nome_lista": "Periféricos para gamers",
+      "data_geracao": "2024-06-25",
+      "lista_produtos": [
+          {
+              "id_produto": "pr003",
+              "id_parceiro": "pp003",
+              "id_sku": "sku003",
+              "descricao": "Mouse Gamer Razer DeathAdder",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 350,
+              "preco_promocional": 300,
+              "desconto": 50,
+              "imagem": "url_imagem_mouse",
+              "parceiro": {
+                  "id_parceiro": "pp003",
+                  "cnpj": "56.789.123/0001-04",
+                  "nome": "Eletrohouse",
+                  "logo": "url_logo_eletrohouse"
+              },
+              "lista_avaliacoes": []
+          },
+          {
+              "id_produto": "pr004",
+              "id_parceiro": "pp004",
+              "id_sku": "sku004",
+              "descricao": "Teclado mecânico Corsair K95 RGB Platinum",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 1200,
+              "preco_promocional": 1000,
+              "desconto": 200,
+              "imagem": "url_imagem_teclado",
+              "parceiro": {
+                  "id_parceiro": "pp004",
+                  "cnpj": "34.567.891./0001-02",
+                  "nome": "Techmania",
+                  "logo": "url_logo_techmania"
+              },
+              "lista_avaliacoes": [
+                  {
+                      "id_avaliacao": "av004",
+                      "id_cliente": "c004",
+                      "data_avaliacao": "2024-06-25",
+                      "nota": 4.6,
+                      "titulo": "Excelente teclado para gamers",
+                      "mensagem": "Construção robusta e resposta tátil perfeita.",
+                      "imagem": "url_imagem_avaliacao_teclado"
+                  }
+              ]
+          }
+      ]
   },
   {
-    "id_lista_desejo": "ld005",
-    "id_cliente": "c005",
-    "nome_lista": "Headsets para jogos",
-    "data_geracao": "2024-06-24",
-    "lista_produtos": [
-      {
-        "id_produto": "pr005",
-        "descricao": "Headset Gamer HyperX Cloud Alpha"
-      }
-    ]
+      "id_lista_desejo": "ld005",
+      "id_cliente": "c005",
+      "nome_lista": "Headsets para jogos",
+      "data_geracao": "2024-06-24",
+      "lista_produtos": [
+          {
+              "id_produto": "pr005",
+              "id_parceiro": "pp005",
+              "id_sku": "sku005",
+              "descricao": "Headset Gamer HyperX Cloud Alpha",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Áudio",
+              "disponibilidade": "em estoque",
+              "preco": 300,
+              "preco_promocional": 250,
+              "desconto": 50,
+              "imagem": "url_imagem_headset",
+              "parceiro": {
+                  "id_parceiro": "pp005",
+                  "cnpj": "45.678.912/0001-03",
+                  "nome": "Eletrotop",
+                  "logo": "url_logo_eletrotop"
+              },
+              "lista_avaliacoes": []
+          }
+      ]
   },
   {
-    "id_lista_desejo": "ld006",
-    "id_cliente": "c002",
-    "nome_lista": "Presente para meu sobrinho",
-    "data_geracao": "2024-06-28",
-    "lista_produtos": [
-      {
-        "id_produto": "pr003",
-        "descricao": "Mouse Gamer Razer DeathAdder"
-      }
-    ]
+      "id_lista_desejo": "ld006",
+      "id_cliente": "c002",
+      "nome_lista": "Presente para meu sobrinho",
+      "data_geracao": "2024-06-28",
+      "lista_produtos": [
+          {
+              "id_produto": "pr003",
+              "id_parceiro": "pp003",
+              "id_sku": "sku003",
+              "descricao": "Mouse Gamer Razer DeathAdder",
+              "categoria": "Tecnologia",
+              "sub_categoria": "Periféricos",
+              "disponibilidade": "em estoque",
+              "preco": 350,
+              "preco_promocional": 300,
+              "desconto": 50,
+              "imagem": "url_imagem_mouse",
+              "parceiro": {
+                  "id_parceiro": "pp003",
+                  "cnpj": "56.789.123/0001-04",
+                  "nome": "Eletrohouse",
+                  "logo": "url_logo_eletrohouse"
+              },
+              "lista_avaliacoes": []
+          }
+      ]
   }
 ]

@@ -1,177 +1,177 @@
 [
   {
-    "id_cliente": "c001",
-    "nome": "João da Silva",
-    "email": "joao.silva@email.com",
-    "documento": "123.456.789-00",
-    "telefone": "(11) 98765-4321",
-    "data_registro": "2023-05-10",
-    "data_acesso": "2024-06-27",
-    "lista_enderecos": [
-      {
-        "id_endereco": "e001",
-        "logradouro": "Av. Paulista",
-        "numero": "1000",
-        "bairro": "Bela Vista",
-        "complemento": "Apto 501",
-        "cep": "54321-123",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      },
-      {
-        "id_endereco": "e002",
-        "logradouro": "Rua das Flores",
-        "numero": "200",
-        "bairro": "Centro",
-        "complemento": "",
-        "cep": "12345-678",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      }
-    ]
+      "id_cliente": "c001",
+      "nome": "João da Silva",
+      "email": "joao.silva@email.com",
+      "documento": "123.456.789-00",
+      "telefone": "(11) 98765-4321",
+      "data_registro": "2023-05-10",
+      "data_acesso": "2024-06-27",
+      "lista_enderecos": [
+          {
+              "id_endereco": "e001",
+              "logradouro": "Av. Paulista",
+              "numero": "1000",
+              "bairro": "Bela Vista",
+              "complemento": "Apto 501",
+              "cep": "54321-123",
+              "cidade": "São Paulo",
+              "estado": "SP",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          },
+          {
+              "id_endereco": "e002",
+              "logradouro": "Rua das Flores",
+              "numero": "200",
+              "bairro": "Centro",
+              "complemento": "",
+              "cep": "12345-678",
+              "cidade": "São Paulo",
+              "estado": "SP",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          }
+      ]
   },
   {
-    "id_cliente": "c002",
-    "nome": "Maria Oliveira",
-    "email": "maria.oliveira@email.com",
-    "documento": "987.654.321-00",
-    "telefone": "(21) 98765-4321",
-    "data_registro": "2022-07-15",
-    "data_acesso": "2024-06-27",
-    "lista_enderecos": [
-      {
-        "id_endereco": "e003",
-        "logradouro": "Rua das Palmeiras",
-        "numero": "300",
-        "bairro": "Jardim Botânico",
-        "complemento": "",
-        "cep": "76543-210",
-        "cidade": "Rio de Janeiro",
-        "estado": "RJ",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      },
-      {
-        "id_endereco": "e004",
-        "logradouro": "Av. Atlântica",
-        "numero": "500",
-        "bairro": "Copacabana",
-        "complemento": "Bloco B, apto 201",
-        "cep": "22010-000",
-        "cidade": "Rio de Janeiro",
-        "estado": "RJ",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      }
-    ]
+      "id_cliente": "c002",
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "documento": "987.654.321-00",
+      "telefone": "(21) 98765-4321",
+      "data_registro": "2022-07-15",
+      "data_acesso": "2024-06-27",
+      "lista_enderecos": [
+          {
+              "id_endereco": "e003",
+              "logradouro": "Rua das Palmeiras",
+              "numero": "300",
+              "bairro": "Jardim Botânico",
+              "complemento": "",
+              "cep": "76543-210",
+              "cidade": "Rio de Janeiro",
+              "estado": "RJ",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          },
+          {
+              "id_endereco": "e004",
+              "logradouro": "Av. Atlântica",
+              "numero": "500",
+              "bairro": "Copacabana",
+              "complemento": "Bloco B, apto 201",
+              "cep": "22010-000",
+              "cidade": "Rio de Janeiro",
+              "estado": "RJ",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          }
+      ]
   },
   {
-    "id_cliente": "c003",
-    "nome": "Antônio Santos",
-    "email": "antonio.santos@email.com",
-    "documento": "654.321.987-00",
-    "telefone": "(31) 98765-4321",
-    "data_registro": "2023-01-20",
-    "data_acesso": "2024-06-27",
-    "lista_enderecos": [
-      {
-        "id_endereco": "e005",
-        "logradouro": "Av. Sete de Setembro",
-        "numero": "700",
-        "bairro": "Centro",
-        "complemento": "",
-        "cep": "12345-678",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      },
-      {
-        "id_endereco": "e006",
-        "logradouro": "Av. Amazonas",
-        "numero": "1000",
-        "bairro": "Centro",
-        "complemento": "Sala 1501",
-        "cep": "30180-001",
-        "cidade": "Belo Horizonte",
-        "estado": "MG",
-        "pais": "Brasil",
-        "tipo_endereco": "comercial"
-      }
-    ]
+      "id_cliente": "c003",
+      "nome": "Antônio Santos",
+      "email": "antonio.santos@email.com",
+      "documento": "654.321.987-00",
+      "telefone": "(31) 98765-4321",
+      "data_registro": "2023-01-20",
+      "data_acesso": "2024-06-27",
+      "lista_enderecos": [
+          {
+              "id_endereco": "e005",
+              "logradouro": "Av. Sete de Setembro",
+              "numero": "700",
+              "bairro": "Centro",
+              "complemento": "",
+              "cep": "12345-678",
+              "cidade": "Belo Horizonte",
+              "estado": "MG",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          },
+          {
+              "id_endereco": "e006",
+              "logradouro": "Av. Amazonas",
+              "numero": "1000",
+              "bairro": "Centro",
+              "complemento": "Sala 1501",
+              "cep": "30180-001",
+              "cidade": "Belo Horizonte",
+              "estado": "MG",
+              "pais": "Brasil",
+              "tipo_endereco": "comercial"
+          }
+      ]
   },
   {
-    "id_cliente": "c004",
-    "nome": "Carlos Souza",
-    "email": "carlos.souza@email.com",
-    "documento": "234.567.890-00",
-    "telefone": "(11) 98765-4321",
-    "data_registro": "2022-09-30",
-    "data_acesso": "2024-06-27",
-    "lista_enderecos": [
-      {
-        "id_endereco": "e007",
-        "logradouro": "Rua Augusta",
-        "numero": "1500",
-        "bairro": "Consolação",
-        "complemento": "Apto 301",
-        "cep": "01234-567",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      },
-      {
-        "id_endereco": "e008",
-        "logradouro": "Rua Oscar Freire",
-        "numero": "2000",
-        "bairro": "Jardins",
-        "complemento": "",
-        "cep": "01426-001",
-        "cidade": "São Paulo",
-        "estado": "SP",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      }
-    ]
+      "id_cliente": "c004",
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@email.com",
+      "documento": "234.567.890-00",
+      "telefone": "(11) 98765-4321",
+      "data_registro": "2022-09-30",
+      "data_acesso": "2024-06-27",
+      "lista_enderecos": [
+          {
+              "id_endereco": "e007",
+              "logradouro": "Rua Augusta",
+              "numero": "1500",
+              "bairro": "Consolação",
+              "complemento": "Apto 301",
+              "cep": "01234-567",
+              "cidade": "São Paulo",
+              "estado": "SP",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          },
+          {
+              "id_endereco": "e008",
+              "logradouro": "Rua Oscar Freire",
+              "numero": "2000",
+              "bairro": "Jardins",
+              "complemento": "",
+              "cep": "01426-001",
+              "cidade": "São Paulo",
+              "estado": "SP",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          }
+      ]
   },
   {
-    "id_cliente": "c005",
-    "nome": "Ana Rodrigues",
-    "email": "ana.rodrigues@email.com",
-    "documento": "345.678.901-00",
-    "telefone": "(41) 98765-4321",
-    "data_registro": "2023-08-05",
-    "data_acesso": "2024-06-27",
-    "lista_enderecos": [
-      {
-        "id_endereco": "e009",
-        "logradouro": "Av. República Argentina",
-        "numero": "2500",
-        "bairro": "Água Verde",
-        "complemento": "Bloco C, apto 401",
-        "cep": "80240-210",
-        "cidade": "Curitiba",
-        "estado": "PR",
-        "pais": "Brasil",
-        "tipo_endereco": "residencial"
-      },
-      {
-        "id_endereco": "e010",
-        "logradouro": "Rua do Comércio",
-        "numero": "150",
-        "bairro": "Centro",
-        "complemento": "Loja 10",
-        "cep": "65432-109",
-        "cidade": "Curitiba",
-        "estado": "PR",
-        "pais": "Brasil",
-        "tipo_endereco": "comercial"
-      }
-    ]
+      "id_cliente": "c005",
+      "nome": "Ana Rodrigues",
+      "email": "ana.rodrigues@email.com",
+      "documento": "345.678.901-00",
+      "telefone": "(41) 98765-4321",
+      "data_registro": "2023-08-05",
+      "data_acesso": "2024-06-27",
+      "lista_enderecos": [
+          {
+              "id_endereco": "e009",
+              "logradouro": "Av. República Argentina",
+              "numero": "2500",
+              "bairro": "Água Verde",
+              "complemento": "Bloco C, apto 401",
+              "cep": "80240-210",
+              "cidade": "Curitiba",
+              "estado": "PR",
+              "pais": "Brasil",
+              "tipo_endereco": "residencial"
+          },
+          {
+              "id_endereco": "e010",
+              "logradouro": "Rua do Comércio",
+              "numero": "150",
+              "bairro": "Centro",
+              "complemento": "Loja 10",
+              "cep": "65432-109",
+              "cidade": "Curitiba",
+              "estado": "PR",
+              "pais": "Brasil",
+              "tipo_endereco": "comercial"
+          }
+      ]
   }
 ]
